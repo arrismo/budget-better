@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+    
+        <title>Budget Better</title>
+        <link rel="shortcut icon" type="image/png" href="apple-icon-120x120.png" />
+
+        <link href="vendor/bootstrap/css/login.css" rel="stylesheet" />
+    </head>
+    <body style="background-image: url(student4.jpg);"> 
+        <script src="https://kit.fontawesome.com/0c56ae1f48.js" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+              <div class="navbar-brand">
+                <img src="Budget Better Logo.png" height="42px" width="42px" />
+              </div>
+              <a class="navbar-brand" href="index.html">Welcome to Budget Better </a>
+      
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  
+                    <a class="nav-link" href="index.html"
+                      >Home
+                      
+                    </a>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signin.html">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+              <div class="card card-signin my-5">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Welcome Back ! Log in here.</h5>
+                  <form class="form-signin" id="login">
+                    <div class="form-label-group">
+                      <input type="email" id="txtEmail" class="form-control" placeholder="Email address" required autofocus>
+                      <label for="inputEmail">Email address</label>
+                    </div>
+      
+                    <div class="form-label-group">
+                      <input type="password" id="txtPassword" class="form-control" placeholder="Password" required>
+                      <label for="inputPassword">Password</label>
+                    </div>
+      
+                    <a href="profile.html" class="btn btn-default btn-lg btn-primary btn-block text-uppercase shadow" >Log In</a>
+
+                    
+                  
+                    <!-- <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button> -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDI1iKGhO7LBMD1ZlPL5mRzZpVGbGdfjBg",
+    authDomain: "budget-better.firebaseapp.com",
+    databaseURL: "https://budget-better.firebaseio.com",
+    projectId: "budget-better",
+    storageBucket: "budget-better.appspot.com",
+    messagingSenderId: "813250691228",
+    appId: "1:813250691228:web:8e5353c106e6919fd96d59",
+    measurementId: "G-T3RXG9R8M1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+db.settings({ timestampsInSnapshots: true });
+  
+</script>
+<script src="main.js"></script>
+      </body>
+
+
+
+</html>
