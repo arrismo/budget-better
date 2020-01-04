@@ -5,3 +5,5 @@ logout.addEventListener('click', (e) => {
     console.log('user signed out');
   })
 });
+
+
