@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+    
+        <title>Budget Better</title>
+        <link rel="shortcut icon" type="image/png" href="apple-icon-120x120.png" />
+
+        <link href="vendor/bootstrap/css/login.css" rel="stylesheet" />
+
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+          <div class="container">
+            <div class="navbar-brand">
+              <img src="Budget Better Logo.png" height="42px" width="42px" />
+            </div>
+            <a class="navbar-brand" href="index.html">Welcome to Budget Better </a>
+    
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                
+                  <a class="nav-link" href=""
+                    >My Dashboard
+                  
+                  </a>
+               
+                <li class="nav-item">
+                  <a class="nav-link btn-lg" href="">Account</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-lg" href="index.html"  id="logout">Log out</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-lg" href="contact.html">Contact Us</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close" >&times;</span>
+              
+            </div>
+            <div class="modal-body">
+              <h1> Successfully logged out</h1>
+            </div>
+            
+          </div>
+        
+        </div>
+
+
+        
+        </body>
+        <script>
+          // Get the modal
+          var modal = document.getElementById("myModal");
+          
+          // Get the button that opens the modal
+          var btn = document.getElementById("logout");
+          
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+          
+          // When the user clicks the button, open the modal 
+          btn.onclick = function() {
+            modal.style.display = "block";
+          }
+          
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+          
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+          </script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDI1iKGhO7LBMD1ZlPL5mRzZpVGbGdfjBg",
+    authDomain: "budget-better.firebaseapp.com",
+    databaseURL: "https://budget-better.firebaseio.com",
+    projectId: "budget-better",
+    storageBucket: "budget-better.appspot.com",
+    messagingSenderId: "813250691228",
+    appId: "1:813250691228:web:8e5353c106e6919fd96d59",
+    measurementId: "G-T3RXG9R8M1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+
+  
+</script>
+
+
+<script src="main.js"></script>
+</html>
