@@ -11,7 +11,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles --><
+        <!-- Styles -->
             <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
             <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
             <link rel="stylesheet" href="{{asset('css/fullpage.min.css')}}">
