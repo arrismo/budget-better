@@ -191,7 +191,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Daniela Martinez</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap CSS templates.</p>
+                                                <p>P</p>
                                             </div>
                                         </div>
                                     </div>
@@ -202,7 +202,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Arris Moise</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap themes.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -213,7 +213,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Eileen</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap layouts.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -224,7 +224,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Daniela Martinez</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -235,7 +235,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Arris Moise</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download Bootstrap CSS templates.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -246,7 +246,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4> Maha</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -257,7 +257,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Eileen</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -268,7 +268,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Arris Moise</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -279,7 +279,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Daniela Martinez</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <p>.</p>
                                             </div>
                                         </div>
                                     </div>
