@@ -223,7 +223,7 @@
                                                 <img src="images/daniela.jpg" alt="">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Daniela Martinez</h4>
+                                                <h4>Sakina Ali</h4>
                                                 <p></p>
                                             </div>
                                         </div>
