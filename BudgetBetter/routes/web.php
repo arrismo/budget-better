@@ -26,6 +26,11 @@ Route::get('/internships', function () {
     return view('internships');
 });
 
+Route::get('/page_3', function () {
+    return view('page_3');
+});
+
+
 
 
 Auth::routes();
