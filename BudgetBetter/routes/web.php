@@ -30,6 +30,10 @@ Route::get('/page_3', function () {
     return view('page_3');
 });
 
+Route::get('/page_4', function () {
+    return view('page_4');
+});
+
 
 
 
