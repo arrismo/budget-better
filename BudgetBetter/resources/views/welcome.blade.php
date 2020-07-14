@@ -122,43 +122,49 @@
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
                                             <h3>Database with over 1,000 cities</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                            <p> No more surprise expenses. Budget Better is supported with a database with over 1,000 cities
+                                                globally to best handle your finances. </p>
                                         </div>
                                     </div>
 
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>All of your abroad finances in one place</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                            <h3>All your finances in one place</h3>
+                                            <p> Whether you are studying abroad, interning in a new city, or hold a work study job at school 
+                                                Budget Better will follow you.</p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
                                             <h3>Never go broke again</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                            <p> Budget Better works for your best financial interest. Our application 
+                                                ensures you are aware of how your weekly income will be budgeted.</p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
                                             <h3>Mobile Coming Soon</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                            <p> As an apprecitation of your support we are announcing the launch of our mobile app. We hope to 
+                                                see you Spring of 2021 at the Draper Competition located at Smith College. </p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
                                             <h3>Fast Support</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                            <p> We are committed to providing excellent customer service to best prepare you on your financial journey.
+                                                Please contact us by email or phone.
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
-                                            <h3> I have no idea</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                            <h3> Partnerships</h3>
+                                            <p>If you'd like to partner with us or find out how we can bring our services to you please contact us for more information.</p>
                                         </div>
                                     </div>
 
@@ -187,99 +193,103 @@
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/daniela.jpg" alt="">
+                                                <img src="images/daniela.jpg" alt="Daniela's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Daniela Martinez</h4>
-                                                <p>P</p>
+                                                <h4 style="text-align:center;">Daniela Martinez</h4>
+                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School:</span> Smith College
+                                                    <br>  <span style="color: #fd7e14"> Major:</span> Government
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> I like to write scripts, watch movies and listen to bachata (dance it too).
+                                                    <br> <span style="color: #fd7e14"> Role: </span> Founder and CEO</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/img_holder.png" alt="">
+                                                <img src="images/Mayeline.jpg" alt="Mayeline's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Arris Moise</h4>
-                                                <p></p>
+                                                <h4 style="text-align:center;">Mayeline Peña </h4>
+                                                <p style="text-align:center;"><span style="color: #fd7e14">School: </span> Smith College 
+                                                    <br> <span style="color: #fd7e14"> Double Major: </span> Computer Science and Dance
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> In my free time I like to dance, bake, and watch TV
+                                                    <br> <span style="color: #fd7e14"> Role:</span> Product Manager</p>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/img_holder.png" alt="">
+                                                <img src="images/Arris.jpg" alt="Arris's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Eileen</h4>
-                                                <p></p>
+                                                <h4 style="text-align:center;" >Arris Moise</h4>
+                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College 
+                                                    <br> <span style="color: #fd7e14"> Major: </span>Computer Science 
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> I like to collect Funko Pops and playing video games.
+                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/daniela.jpg" alt="">
+                                                <img src="images/Sakina.jpg" alt="Sakina's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Sakina Ali</h4>
-                                                <p></p>
+                                                <h4 style="text-align:center;">Sakina Ali</h4>
+                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
+                                                    <br> <span style="color: #fd7e14"> Double Major: </span> Computer Science & Biochemistry
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> You can find me dancing with Smith’s South Asian Dance Team, SC Masti or on a mountain, hiking with my friends.
+                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/img_holder.png" alt="">
+                                                <img src="images/Neamat.png" alt="Neamat's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Arris Moise</h4>
-                                                <p></p>
+                                                <h4 style="text-align:center;">Neamat Sabry</h4>
+                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
+                                                    <br> <span style="color: #fd7e14"> Major: </span> Computer Science 
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> Playing on pianos & drawing people.
+                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/img_holder.png" alt="">
+                                                <img src="images/Maha.jpeg" alt="Maha's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4> Maha</h4>
-                                                <p></p>
+                                                <h4 style="text-align:center;"> Maha Awaisi </h4>
+                                                <p style="text-align:center;"> <span style="color: #fd7e14">School: </span> Smith College 
+                                                    <br> <span style="color: #fd7e14"> Major: </span> Computer Science 
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> In my free time I love to dance and cook.
+                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer</p>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/img_holder.png" alt="">
+                                                <img src="images/Eileen.jpg" alt="Eileen's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Eileen</h4>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="/images/img_holder.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Arris Moise</h4>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/daniela.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Daniela Martinez</h4>
-                                                <p>.</p>
+                                                <h4 style="text-align:center;" >Eileen Asinc Luna</h4>
+                                                <p style="text-align:center;"><span style="color: #fd7e14">School: </span> Smith College
+                                                    <br> <span style="color: #fd7e14"> Double Major: </span> Computer Science and Sociology
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> I like listening to reggaeton/salsa while cross stitching patterns for my friends.
+                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
