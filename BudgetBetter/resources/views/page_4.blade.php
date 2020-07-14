@@ -6,30 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Budget Better</title>
+  <link rel="stylesheet" href="{{asset('css/page_4.css')}}">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
 
 </head>
-<body>
-    <div class="card-deck text-center" style="padding-top: 20px; padding-left:30px;">
-        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-            <div class="card-header bg-transparent border-success " style="font-family: 'Nunito', sans-serif;">Your Budget</div>
-          <div class="card-body">
+<body >
+
+
+    <div class="card-deck text-center" style="padding-top: 20px; padding-left:20px; padding-right: 20px;">
+        <div class="card shadow-lg p-3 mb-5 bg-black rounded">
+            <div class="card-header bg-transparent  " style="font-family: 'Nunito', sans-serif; font-size: 30px;">Your Budget</div>
+
+
+          <div class="card-body" style="height: 800px">
             <ul class="list-group list-group-flush">
               
-                <li class="list-group-item text-left">Food
+                <li class="list-group-item text-left "  >Food
                 
                 </li>
              
 
-                <li class="list-group-item text-left">Rent</li>
-                <li class="list-group-item text-left">Spending Money</li>
-                <li class="list-group-item text-left">Transportation</li>
-                <li class="list-group-item text-left">Other</li>
+                <li class="list-group-item text-left" >Rent</li>
+                <li class="list-group-item text-left" >Spending Money</li>
+                <li class="list-group-item text-left" >Transportation</li>
+                <li class="list-group-item text-left" >Other</li>
               </ul>
-         
-            
           </div>
+
+
         </div>
 
 
@@ -43,7 +49,7 @@
                 </li>
              
 
-                <li class="list-group-item text-left">Rent</li>
+                <li class="list-group-item text-left" >Rent</li>
                 <li class="list-group-item text-left">Spending Money</li>
                 <li class="list-group-item text-left">Transportation</li>
                 <li class="list-group-item text-left">Other</li>
@@ -63,7 +69,7 @@
             <ul class="list-group list-group-flush">
            
                   
-                <li class="list-group-item text-left" style="margin-left: 2.5em;">Food  
+                <li class="list-group-item text-left" >Food  
                     <input type="text" placeholder="$ 0.00"  style=" background-color:#fff; width:100%; background-clip:padding-box; border: 1px solid #ced4da; border-radius: .25rem;"    class=" col-sm-3 inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
                 </li>
 
