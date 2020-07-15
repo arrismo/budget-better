@@ -16,9 +16,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Note to Arris: gfg is to test the connection to database can delete later
 Route::get('gfg', function () {
     return view('gfg');
 });
+
+Route::get('/internships', function () {
+    return view('internships');
+});
+
+Route::get('/page_3', function () {
+    return view('page_3');
+});
+
+Route::get('/page_4', function () {
+    return view('page_4');
+});
+
 
 
 
