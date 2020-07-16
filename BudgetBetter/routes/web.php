@@ -35,6 +35,11 @@ Route::get('/page_4', function () {
 });
 
 
+Route::get('/signup', function () {
+    return view('signup');
+});
+
+
 
 
 Auth::routes();
