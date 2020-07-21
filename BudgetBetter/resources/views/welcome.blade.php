@@ -257,23 +257,8 @@
                                                 <h4 style="text-align:center;">Neamat Sabry</h4>
                                                 <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
                                                     <br> <span style="color: #fd7e14"> Major: </span> Computer Science 
-                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> Playing on pianos & drawing people.
+                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> I like playing on pianos & drawing people.
                                                     <br> <span style="color: #fd7e14"> Role: </span> Developer
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/Maha.jpeg" alt="Maha's Picture" style="width:380px;height:400px;">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4 style="text-align:center;"> Maha Awaisi </h4>
-                                                <p style="text-align:center;"> <span style="color: #fd7e14">School: </span> Smith College 
-                                                    <br> <span style="color: #fd7e14"> Major: </span> Computer Science 
-                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> In my free time I love to dance and cook.
-                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer</p>
                                                 </p>
                                             </div>
                                         </div>
