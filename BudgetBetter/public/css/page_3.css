@@ -1,0 +1,23 @@
+
+
+
+
+body{
+
+background: #e65c00; 
+background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #e65c00);
+
+
+
+}
+
+.center {
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    margin-left: 0px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+}
