@@ -58,7 +58,7 @@
 
 
       <h1 class="text-center" style="color: white"> Your Results! </h1>
-      <p>You can change your budget under the "Your Changes" column. </p>
+      <p class="text-center" style="color: #fff">You can change your budget under the "Your Changes" column. </p>
 
 
     <div class="card-deck text-center" style="padding-top: 20px; padding-left:20px; padding-right: 20px;">
@@ -79,7 +79,7 @@
 
                 </li>
                 <li class="list-group-item text-left">Spending Money
-<input type="number"  min="0.00" max="10000.00" step="0.01" placeholder="$0.00" style="  
+<input  placeholder="$0.00" style="  
                       background-color:#fff; 
                       width:25%; background-clip:padding-box; 
                       border: 1px solid black; 
@@ -89,7 +89,7 @@
                       "    
                       
                       
-                      class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
+                      class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
                 </li>
                 <li class="list-group-item text-left">Transportation
                   <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
