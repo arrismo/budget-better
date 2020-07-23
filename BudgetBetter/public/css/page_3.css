@@ -17,7 +17,7 @@ background: linear-gradient(to right, #F9D423, #e65c00);
     color: white;
     position: absolute;
     top: 40%;
-    left: 26%;
-    margin-left: -50px; /* margin is -0.5 * dimension */
+    left: 15%;
+    margin-left: 0px; /* margin is -0.5 * dimension */
     margin-top: -25px; 
 }
