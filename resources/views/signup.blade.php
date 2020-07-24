@@ -150,10 +150,9 @@
   </head>
   <body>
     <div class="testbox">
-      <form  action="{{ route('page_3') }}">
-        @csrf_field
-        {{ method_field('PUT') }}
+      <form>
         
+
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
@@ -440,7 +439,7 @@
         </div>
 
         <div class="btn-block">
-          <button type="submit" href="{{ route('page_3') }}" >SUBMIT</button>
+          <button type="submit" href="{{ url('page_3') }}" >SUBMIT</button>
         </div>
 
       </form>
