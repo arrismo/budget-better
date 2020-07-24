@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
 
-	public function third_page()
+	public function index()
 	{
 		return view('page_3');
 	}
