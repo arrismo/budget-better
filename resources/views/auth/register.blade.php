@@ -38,7 +38,7 @@
             <div class="register100-form-title p-b-34 p-t-27">{{ __('Register') }}</div>
 
                 <div class="register100-form validate-form">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form  action="{{ route('register') }}">
                         @csrf
                         
                         <div class="wrap-input100 validate-input" data-validate = "Name">
