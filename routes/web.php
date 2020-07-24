@@ -30,6 +30,8 @@ Route::get('/page_3', function () {
     return view('page_3');
 });
 
+
+
 Route::get('/page_4', function () {
     return view('page_4');
 });
@@ -39,6 +41,8 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
+
+Route::get('/page_3', 'PagesController@index')->('page_3');
 
 
 

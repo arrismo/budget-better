@@ -437,7 +437,7 @@
         </div>
 
         <div class="btn-block">
-          <button type="submit" href="{{ URL::route('page_3') }}" >SUBMIT</button>
+          <button type="submit" href="{{ route('page_3') }}" >SUBMIT</button>
         </div>
 
       </form>
