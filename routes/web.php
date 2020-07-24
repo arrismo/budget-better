@@ -41,7 +41,7 @@ Route::get('/signup', function () {
 });
 
 
-Route::view('page_3', 'page_3.blade.php')->name('page_3');
+//Route::view('page_3', 'page_3.blade.php')->name('page_3');
 
 //Route::get('/pages', 'PagesController@index')->name('pages');
 
