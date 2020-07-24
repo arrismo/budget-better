@@ -150,7 +150,7 @@
   </head>
   <body>
     <div class="testbox">
-      <form>
+      <form action="{{ route('page_3') }}">
         
 
         <div class="banner">
@@ -439,7 +439,7 @@
         </div>
 
         <div class="btn-block">
-          <button  href="{{ route('page_3') }}" >SUBMIT</button>
+          <button type="submit" >SUBMIT</button>
         </div>
 
       </form>
