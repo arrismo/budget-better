@@ -93,7 +93,7 @@
                         </div>
 
                         <div class="container-login100-form-btn">
-                            <button type="submit" onclick="location.href='{{ url('signup') }}'" class="login100-form-btn" >
+                            <button type="submit" action="/signup" class="login100-form-btn" >
                                 {{__('Register') }}
                             </button>
                         </div>
