@@ -437,7 +437,7 @@
         </div>
 
         <div class="btn-block">
-          <button type="submit" href="/">SUBMIT</button>
+          <button type="submit" href="/page_3">SUBMIT</button>
         </div>
 
       </form>
