@@ -150,7 +150,8 @@
   </head>
   <body>
     <div class="testbox">
-      <form>
+      <form method="POST" action="{{ route('page_3') }}">
+        @csrf
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
