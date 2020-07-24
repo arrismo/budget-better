@@ -439,7 +439,7 @@
         </div>
 
         <div class="btn-block">
-          <button  href="{{ route('page_3') }}" >SUBMIT</button>
+          <button  href="{{ route('pages') }}" >SUBMIT</button>
         </div>
 
       </form>
