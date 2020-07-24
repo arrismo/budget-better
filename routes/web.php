@@ -42,7 +42,7 @@ Route::get('/signup', function () {
 });
 
 
-Route::get('/page_3', 'PagesController@index')->('page_3');
+Route::get('/page_3', 'PagesController@index')->name('page_3');
 
 
 
