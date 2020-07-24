@@ -26,9 +26,6 @@ Route::get('/internships', function () {
     return view('internships');
 });
 
-Route::get('/page_3', function () {
-    return view('page_3');
-});
 
 
 
@@ -42,7 +39,13 @@ Route::get('/signup', function () {
 });
 
 
-Route::get('/page_3', 'PagesController@third_page')->name('page_3');
+Route::get('page_3', function() 
+{
+	return view('page_3');
+
+
+
+});
 
 
 
