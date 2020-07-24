@@ -151,7 +151,9 @@
   <body>
     <div class="testbox">
       <form  action="{{ route('page_3') }}">
-        @csrf
+        @csrf_field
+        {{ method_field('PUT') }}
+        
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
