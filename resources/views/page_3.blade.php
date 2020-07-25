@@ -36,8 +36,9 @@
 
 
     <div class="wrapper">
- <button type="button" class="btn btn-light btn-lg"> Continue </button>
- <button type="button" class="btn btn-light btn-lg"> Go Back </button>
+    	<button type="button" class="btn btn-light btn-lg"> Go Back </button>
+        <button type="button" class="btn btn-light btn-lg"> Continue </button>
+ 
 
     </div> 
 
