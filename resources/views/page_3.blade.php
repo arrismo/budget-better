@@ -2,8 +2,7 @@
 <html>
 <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">     
     <title>Budget Better</title>
 
 
@@ -20,6 +19,9 @@
 
     <div class='fullscreenDiv'>
        <div class="center"> <h1 style="font-family: 'Nunito', sans-serif;"> Now you will prepare your budget!</h1></div>
+
+       <button type="button" class="btn"> Continue </button>
+       <button type="button" class="btn"> Go Back </button>
     
 
     </div>
