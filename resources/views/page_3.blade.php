@@ -25,10 +25,12 @@
 
     </div>
 
+
+    <div class="wrapper">
  <button type="button" class="btn"> Continue </button>
  <button type="button" class="btn"> Go Back </button>
 
-
+    </div> 
 
 
 
