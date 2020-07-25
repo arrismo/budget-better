@@ -27,7 +27,7 @@
 <body >
 
     <div class='fullscreenDiv'>
-       <div class="center"> <h1 style="font-family: 'Nunito', sans-serif;"> Now you will prepare your budget!</h1></div>
+       <div class="center"> <h3 style="font-family: 'Nunito', sans-serif;  font-size: large;"> Now you will prepare your budget!</h3></div>
 
 
     
