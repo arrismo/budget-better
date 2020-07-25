@@ -40,11 +40,10 @@
 
     <div class="wrapper">
     	
-    	<button type="button" class="btn btn-light btn-lg" href="/resources/views/signup" >Go Back </button>
+    	<button type="button" class="btn btn-light btn-lg"  >Go Back </button>
 
-    	<form action="{{ route('page_4') }}">
-        <button type="button" class="btn btn-light btn-lg" href="/resources/views/page_4" >Continue </button>
-           </form>
+        <button type="button" class="btn btn-light btn-lg" href="{{ route('page_4') }}" >Continue </button>
+         
 
     </div> 
 
