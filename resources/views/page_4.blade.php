@@ -202,8 +202,10 @@
 
 
 
+       <a class="btn btn-lg" style="float: left; color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;" href="{{ route('page_3') }}" role="button" >Go Back</a>
 
-<button> Continue</button>
+       <a class="btn btn-lg" style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;" href="" role="button" >Continue</a>
+
 
 
 
