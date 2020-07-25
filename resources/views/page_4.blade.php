@@ -201,17 +201,23 @@
       </div>
 
 
-<!-- Footer -->
+
+
+<button> Continue</button>
+
+
+
+
 <footer class="page-footer font-small">
 
-  <!-- Copyright -->
+ 
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     BudgetBetter
   </div>
-  <!-- Copyright -->
+ 
 
 </footer>
-<!-- Footer -->
+
 
 
 
