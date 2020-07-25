@@ -43,7 +43,7 @@ Route::get('/signup', function () {
 
 Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
 
-Route::post('/resources/views/page_4', 'PagesController@p4')->name('page_4');
+Route::get('/resources/views/page_4', 'PagesController@p4')->name('page_4');
 
 
 
