@@ -40,13 +40,16 @@
 
     <div class="wrapper">
     	
-    	<button type="button" class="btn btn-light btn-lg"  >Go Back </button>
+    	
+
+    	 <a class="btn btn-light btn-lg active"  href="{{ route('signup') }}" role="button" >Go Back</a>
 
 
-    	<a class="btn btn-default"  href="{{ route('page_4') }}">Left</a>
 
-        <button type="button" class="btn btn-light btn-lg" href="{{ route('page_4') }}" >Continue </button>
-         
+    	<a class="btn btn-light btn-lg active"  href="{{ route('page_4') }}" role="button" >Continue</a>
+
+      <!--   <button type="button" class="btn btn-light btn-lg" href="{{ route('page_4') }}" >Continue </button>
+          -->
 
     </div> 
 

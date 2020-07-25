@@ -27,13 +27,7 @@ Route::get('/internships', function () {
 });
 
 
-/*Route::get('/page_3', function () {
-    return view('page_3');
-});*/
 
-Route::get('/page_4', function () {
-    return view('page_4');
-});
 
 
 Route::get('/signup', function () {
@@ -45,6 +39,7 @@ Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
 
 Route::get('/resources/views/page_4', 'PagesController@p4')->name('page_4');
 
+Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 
 
 

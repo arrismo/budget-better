@@ -13,11 +13,16 @@ class PagesController extends Controller
 	}
 
 
-	
+
 
 	public function p4()
 	{
 		return view('page_4');
+	}
+
+	public function sp()
+	{
+		return view('signup');
 	}
 
 
