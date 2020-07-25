@@ -13,6 +13,7 @@
 
 </head>
 <body>
+  @csrf
   <div style="padding-bottom: 28px;">
     <nav class="navbar navbar-expand-md  nav-color ">
         <div class="container">
