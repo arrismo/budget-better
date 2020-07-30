@@ -30,7 +30,7 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-md  nav-color ">
+<nav class="navbar navbar-expand-md  nav-color" style="padding-bottom: 80px;">
         <div class="container">
             <a class="" href="{{ url('/') }}" style="font-size:30px; ">
                 {{ config('app.name', 'BudgetBetter') }}
@@ -71,13 +71,13 @@
 
 
 
+<h1> My Dashboard </h1>
 
 
 
 
 
-
-<div class="row">
+<div class="row" style="padding-left:60px; padding-right: 20px;">
 
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-left-primary shadow h-100 py-2">
@@ -154,23 +154,24 @@
 
 
 <div class="row">
-    	<div class="col-sm-4">
+    	<div class="col-sm-4" style="margin-left: 60px;">
     		<div class="card shadow">
             	<div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Resources</h6>
                 </div>
                 <div class="card-body">
-                  <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
-                  <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                  <p> </p>
                 </div>
              </div>
         </div>
 
 
-        <div class="col-sm-4">
+        <div class="col-sm-4" style="margin-left: 560px;">
+        	
+        </style>>
         	<div class="card shadow">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Your Info</h6>
                 </div>
                 <div class="card-body">
                   <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
