@@ -35,6 +35,8 @@ Route::get('/signup', function () {
 });
 
 
+Route::get('/resources/views/welcome', 'PagesController@welcome')->name('welcome');
+
 Route::get('/resources/views/aboutus', 'PagesController@about')->name('aboutus');
 
 Route::get('/resources/views/dashboard', 'PagesController@db')->name('dashboard');

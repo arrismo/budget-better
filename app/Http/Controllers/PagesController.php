@@ -37,7 +37,9 @@ class PagesController extends Controller
 		return view('aboutus');
 	}
 
-	
+	public function welcome(){
+		return view('welcome');
+	}
 
 
 
