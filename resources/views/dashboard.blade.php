@@ -30,9 +30,9 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-md  nav-color" style="padding-bottom: 80px;">
+<nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
         <div class="container">
-            <a class="" href="{{ url('/') }}" style="font-size:30px; ">
+            <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-370px; ">
                 {{ config('app.name', 'BudgetBetter') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -44,10 +44,13 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
+                  <li> home </li>
+                  <li> contact us </li>
+                  <<li> about us </li>
                
                     <!-- Authentication Links -->
                         <li class="nav-item dropdown"> 
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" style="color:white;" class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                               Welcome  {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
 
@@ -71,7 +74,7 @@
 
 
 
-<h1 style="margin-left: 58px; color: black;" > My Dashboard </h1>
+<h1 style="margin-left: 58px; color: black; margin-top: 20px;" > My Dashboard </h1>
 
 
 
@@ -80,7 +83,7 @@
 <div class="row" style="padding-left:60px; padding-right: 20px; text-align: center;">
 
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #e38763 !important;">
+              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
               	
               </style>
                 <div class="card-body">
@@ -101,7 +104,7 @@
 
             
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #e38763 !important;">
+              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
@@ -117,7 +120,7 @@
             </div>
 
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #e38763 !important;">
+              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
@@ -135,7 +138,7 @@
 
 
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow h-100 py-2" style="border-left: .25rem solid #e38763 !important;">
+              <div class="card  shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
@@ -159,7 +162,7 @@
 <div class="row"  style="text-align: center;">
     	<div class="col-sm-4" style="margin-left: 60px;">
     		<div class="card shadow">
-            	<div class="card-header py-3" style="background-color: #e38763;">
+            	<div class="card-header py-3" style="background-color: #76802F;">
                   <h6 class="m-0 font-weight-bold" style="color:black;"></em>Resources</h6>
                 </div>
                 <div class="card-body">
@@ -169,11 +172,11 @@
         </div>
 
 
-        <div class="col-sm-4" style="margin-left: 560px;">
+        <div class="col-sm-4" style="margin-left: 571px;">
         	
         </style>
         	<div class="card shadow">
-                <div class="card-header py-3" style="background-color: #e38763;">
+                <div class="card-header py-3" style="background-color: #76802F;">
                   <h6 class="m-0 font-weight-bold " style="color:black;">Your Info</h6>
                 </div>
                 <div class="card-body">

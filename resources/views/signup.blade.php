@@ -456,7 +456,7 @@
     </div>
 </body>
 <!-- Copyright -->
-<div style="color:#818c35;text-align:center" class="footer-copyright text-center py-3">© 2020 Copyright:
+<div style="color:black;text-align:center" class="footer-copyright text-center py-3">© 2020 Copyright:
       BudgetBetter
 </div>
     <!-- Copyright -->
