@@ -3,58 +3,6 @@
 @section('content')
 <!DOCTYPE html>
 <html>
-<header id="header">
-            <div class="container-fluid">
-                <div class="navbar">
-                    <a href="#" id="logo" >
-                        Budget Better  
-
-                    </a>
-                    <div class="navigation-row">
-                        <nav id="navigation">
-                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                            <div class="nav-box navbar-collapse">
-                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li ><a href="{{ route('home')}}"><strong>Home </strong></a></li>
-                                    <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
-
-                                    <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
-                              
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-  <head>
-  <meta charset="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-
-        
-
-
-
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
-        <link rel="stylesheet" href="{{asset('fonts/iconic/css/material-design-iconic-font.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/animate/animate.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/css-hamburgers/hamburgers.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/animsition/css/animsition.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/select2/select2.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
-        <link rel="stylesheet" href="{{asset('css/util.css')}}">
-        <link rel="stylesheet" href="{{asset('css/main.css')}}">
-
     <title>Sign-Up</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
