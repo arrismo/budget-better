@@ -156,10 +156,12 @@
   <body>
     <div class="testbox">
       <form  action="{{ route('page_3') }}">
-        @csrf
-        @extends('layouts.app')
+      @extends('layouts.app')
 
-        @section('content')
+      @section('content')
+      
+      @csrf
+        
 
         <div class="banner">
           <h1>Sign-Up</h1>
