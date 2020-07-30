@@ -109,6 +109,12 @@
     
       <div id="dropDownSelect1"></div>
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      BudgetBetter
+    </div>
+    <!-- Copyright -->
+
 
       <!-- important -->
       <script src="{{asset('vendor/jquery/jquery-3.2.1.min.js')}}" type="text/javascript" ></script>
