@@ -38,7 +38,7 @@
 <div class="limiter">
         <div class="container-login100" >
           <div class="wrap-login100">
-            <form  action="{{ route('dashboard') }}"  method="POST" class="login100-form validate-form" >
+            <form  action="{{ route('login') }}"  method="POST" class="login100-form validate-form" >
               @csrf
               
               
@@ -85,7 +85,7 @@
               </div>
     
               <div class="container-login100-form-btn">
-                <button type="submit" class="login100-form-btn" >
+                <button type="submit"  class="login100-form-btn" >
                   {{__('Login') }}
                 </button>
               </div>

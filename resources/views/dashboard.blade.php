@@ -71,7 +71,7 @@
 
 
 
-<h1 style="margin-left: 58px; color: black;"> My Dashboard </h1>
+<h1 style="margin-left: 58px; color: black;" > My Dashboard </h1>
 
 
 
