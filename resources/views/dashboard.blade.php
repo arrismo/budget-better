@@ -11,6 +11,8 @@
 
 
 	<link rel="stylesheet" href="asset{{'css/dashboard.css'}}">
+	<link rel="stylesheet" href="asset{{'vendor/fontawesome-free/all.min.css'}}">
+
 
 
 	
