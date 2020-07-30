@@ -18,7 +18,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large" style="background-color: white;">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="resources/views/welcome" class="w3-bar-item w3-button w3-padding-large w3-white">Go Back</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -32,7 +32,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:128px 16px; background-color: #D9B334;">
+<header class="w3-container  w3-center" style="padding:128px 16px; background-color: #D9B334;">
   <h1 class="w3-margin w3-jumbo"> OUR STORY </h1>
   <p class="w3-xlarge">THE INSPIRATION BEHIND WHAT WE DO</p>
 </header>
