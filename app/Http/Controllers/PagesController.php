@@ -26,6 +26,11 @@ class PagesController extends Controller
 	}
 
 
+	public function db(){
+		return view('dashboard');
+	}
+
+
 
     
 

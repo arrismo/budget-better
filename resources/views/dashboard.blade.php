@@ -156,7 +156,7 @@
 </div>
 
 
-<div class="row">
+<div class="row"  style="text-align: center;">
     	<div class="col-sm-4" style="margin-left: 60px;">
     		<div class="card shadow">
             	<div class="card-header py-3" style="background-color: #e38763;">
