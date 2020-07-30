@@ -14,7 +14,7 @@
 
 
 
- 
+ <link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
 	
 		
 
