@@ -1,63 +1,3 @@
-<?php
-    if(isset($_POST['submit']))
-    {
-        $name = $_POST['name']; // Get Name value from HTML Form
-        $email_id = $_POST['email']; // Get Email Value
-        $msg = $_POST['message']; // Get Message Value
-         
-        $to = "Budgetbetter1@gmail.com"; // You can change here your Email
-        $subject = "'$name' has been sent a mail"; // This is your subject
-         
-        // HTML Message Starts here
-        $message ="
-        <html>
-            <body>
-                <table style='width:600px;'>
-                    <tbody>
-                        <tr>
-                            <td style='width:150px'><strong>Name: </strong></td>
-                            <td style='width:400px'>$name</td>
-                        </tr>
-                        <tr>
-                            <td style='width:150px'><strong>Email ID: </strong></td>
-                            <td style='width:400px'>$email_id</td>
-                        </tr>
-                        <tr>
-                            <td style='width:150px'><strong>Message: </strong></td>
-                            <td style='width:400px'>$msg</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </body>
-        </html>
-        ";
-        // HTML Message Ends here
-         
-        // Always set content-type when sending HTML email
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
- 
-        // More headers
-        // $headers .= 'From: Admin <admin@websapex.com>' . "\r\n"; // Give an email id on which you want get a reply. User will get a mail from this email id
-        // $headers .= 'Cc: info@websapex.com' . "\r\n"; // If you want add cc
-        // $headers .= 'Bcc: boss@websapex.com' . "\r\n"; // If you want add Bcc
-         
-        if(mail($to,$subject,$message,$headers)){
-            // Message if mail has been sent
-            echo "<script>
-                    alert('Mail has been sent Successfully.');
-                </script>";
-        }
- 
-        else{
-            // Message if mail has been not sent
-            echo "<script>
-                    alert('EMAIL FAILED');
-                </script>";
-        }
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -85,6 +25,7 @@
       
         <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
         
+
 
 
        
@@ -136,7 +77,8 @@
                                     <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
                                     <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
-                                    <li data-menuanchor="slide04"><a href="#slide04"><strong>Contact Us</strong></a></li>
+                                    <li data-menuanchor="slide05"><a href="#slide05"><strong>Contact Us</strong></a></li>
+                                    <li><a href="{{route('aboutus')}}"><strong>About Us</strong></a></li>
                                
 
 
@@ -403,7 +345,7 @@
 
 -->
             <!-- Contact Us Slide-->
-            <div class="section animated-row" data-section="slide04">
+            <div class="section animated-row" data-section="slide05">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-7 wide-col-laptop">
@@ -416,13 +358,13 @@
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <div class="contact-box">
                                             <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 1 Chapin Way Unit 6793 Northampton, Massachusetts 01063
+                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
                                             </div>
                                             <div class="contact-row">
-                                                <i class="fa fa-phone"></i> 929-462-3986
+                                                <i class="fa fa-phone"></i> 123-456-7890
                                             </div>
                                             <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> Budgetbetter1@gmail.com
+                                                <i class="fa fa-envelope"></i> BudgetBetter@gmail.com
                                             </div>
                                         </div>
                                     </div>
@@ -437,7 +379,7 @@
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
-                                                <button class="btn" type="submit" name="submit">Submit</button>
+                                            <button class="btn" type="submit">Submit</button>
                                         </form>
                                         <div id="form-messages" class="mt-3"></div>
                                     </div>
