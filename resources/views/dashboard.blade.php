@@ -20,7 +20,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-     <link  type="text/css" rel="stylesheet" href="http://budget-better.com/css/dboard.css">
+     <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
 
 
 
@@ -77,21 +77,22 @@
 
 
 
-<div class="row" style="padding-left:60px; padding-right: 20px;">
+<div class="row" style="padding-left:60px; padding-right: 20px; text-align: center;">
 
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="card shadow h-100 py-2" style="border-left: .25rem solid #e38763 !important;">
               	
-              </style>>
+              </style>
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Food
                       </div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">$40</div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                      <i class="fa fa-cutlery" aria-hidden="true"></i>
+
                     </div>
                   </div>
                 </div>
@@ -105,7 +106,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Rent</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">200</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">$200</div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -121,7 +122,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Spending Money</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">200</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">$200</div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -138,8 +139,8 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-lg font-weight-bold text-success text-uppercase mb-1" style="color:black;">Transportation</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
+                      <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Transportation</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">$50</div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -158,8 +159,8 @@
 <div class="row">
     	<div class="col-sm-4" style="margin-left: 60px;">
     		<div class="card shadow">
-            	<div class="card-header py-3" style="background-color: green;">
-                  <h6 class="m-0 font-weight-bold" style="color:black;"></em>>Resources</h6>
+            	<div class="card-header py-3" style="background-color: #e38763;">
+                  <h6 class="m-0 font-weight-bold" style="color:black;"></em>Resources</h6>
                 </div>
                 <div class="card-body">
                   <p> </p>
@@ -172,19 +173,18 @@
         	
         </style>
         	<div class="card shadow">
-                <div class="card-header py-3" style="background-color: green;">
+                <div class="card-header py-3" style="background-color: #e38763;">
                   <h6 class="m-0 font-weight-bold " style="color:black;">Your Info</h6>
                 </div>
                 <div class="card-body">
-                  <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
-                  <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                  <p> </p>
         </div>
 	</div>
 </div>
 
 </div>
 
-<div style="color:#818c35;text-align:center" class="footer-copyright text-center py-3">© 2020 Copyright:
+<div style="color:black; text-align:center" class="footer-copyright text-center py-3">© 2020 Copyright:
       BudgetBetter
 </div>
 
