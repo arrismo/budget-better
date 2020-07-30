@@ -1,6 +1,38 @@
 @extends('layouts.app')
 
-@section('content')
+<!-- @section('content') -->
+<header id="header">
+            <div class="container-fluid">
+                <div class="navbar">
+                    <a href="#" id="logo" >
+                        Budget Better  
+
+                    </a>
+                    <div class="navigation-row">
+                        <nav id="navigation">
+                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
+                            <div class="nav-box navbar-collapse">
+                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                                    <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>Home</strong></a></li>
+                                    <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
+
+                                    <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
+
+                                    <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
+                                    <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
+                                  <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
+                                    <li data-menuanchor="slide05"><a href="#slide05"><strong>Contact Us</strong></a></li>
+                               
+
+
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
 <head>
         <meta charset="utf-8" />
         <meta
