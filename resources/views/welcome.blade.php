@@ -78,7 +78,7 @@
                                     <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
                                     <li data-menuanchor="slide05"><a href="#slide05"><strong>Contact Us</strong></a></li>
-                                    <li><a href="{{route('aboutus')}}"><strong>About Us</strong></a></li>
+                                    <li><a href=""><strong>About Us</strong></a></li>
                                
 
 
