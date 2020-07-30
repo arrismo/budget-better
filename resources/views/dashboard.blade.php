@@ -43,14 +43,16 @@
              
 
                 <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto" >
                   <li class="nav-item">
-                  <a class="nav-link" href="#"> home  </a>
+                  <a class="nav-link" href="#" style="color:white;"> home  </a>
                   </li>
 
 
-                  <li class="nav-item"> contact us </li>
-                  <li class="nav-item"> about us </li>
+                  <li class="nav-item"> 
+                      <a class="nav-link" href="#" style="color:white;"> contact us   </a>
+                  </li>
+                 
                
                     <!-- Authentication Links -->
                         <li class="nav-item dropdown"> 
@@ -70,6 +72,14 @@
                                 </form>
                             </div>
                         </li>
+
+
+                      <li class="nav-item"> 
+                        <a class="nav-link" href="#" style="color:white;">
+                      about us 
+                    </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
