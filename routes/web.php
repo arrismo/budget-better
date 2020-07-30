@@ -30,7 +30,6 @@ Route::get('/dashboard', function () {
 
 
 
-
 Route::get('/signup', function () {
     return view('signup');
 });
