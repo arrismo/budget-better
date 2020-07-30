@@ -22,10 +22,11 @@ Route::get('gfg', function () {
     return view('gfg');
 });
 
-Route::get('/internships', function () {
-    return view('internships');
-});
 
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 
 
 
