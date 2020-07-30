@@ -60,7 +60,7 @@ border-color: #FFFFFF;"   href="{{ route('page_4') }}" role="button" >Continue</
 
     </div> 
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
+<div color= #818c35 class="footer-copyright text-center py-3">© 2020 Copyright:
       BudgetBetter
     </div>
 <!-- Copyright -->
