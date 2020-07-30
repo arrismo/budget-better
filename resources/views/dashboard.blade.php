@@ -44,9 +44,13 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
-                  <li> home </li>
-                  <li> contact us </li>
-                  <<li> about us </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#"> home  </a>
+                  </li>
+
+
+                  <li class="nav-item"> contact us </li>
+                  <li class="nav-item"> about us </li>
                
                     <!-- Authentication Links -->
                         <li class="nav-item dropdown"> 
