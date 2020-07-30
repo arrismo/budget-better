@@ -15,19 +15,11 @@
                             <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
                             <div class="nav-box navbar-collapse">
                                 <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>Home</strong></a></li>
+                                    <li ><a href="{{ route('welcome')}}"><strong>Home </strong></a></li>
                                     <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
 
                                     <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
-
-                                    <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
-                                    <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
-                                  <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
-                                    <li data-menuanchor="slide05"><a href="#slide05"><strong>Contact Us</strong></a></li>
-                               
-
-
-
+                              
                                 </ul>
                             </div>
                         </nav>
@@ -62,7 +54,7 @@
         <link rel="stylesheet" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
         <link rel="stylesheet" href="{{asset('css/util.css')}}">
         <link rel="stylesheet" href="{{asset('css/main.css')}}">
-        
+
     <title>Sign-Up</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
