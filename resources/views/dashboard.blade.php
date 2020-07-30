@@ -168,7 +168,7 @@
 
         <div class="col-sm-4" style="margin-left: 560px;">
         	
-        </style>>
+        </style>
         	<div class="card shadow">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">Your Info</h6>
