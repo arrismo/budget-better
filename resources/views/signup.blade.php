@@ -1,6 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
 <!DOCTYPE html>
 <html>
   <head>
@@ -160,6 +157,9 @@
     <div class="testbox">
       <form  action="{{ route('page_3') }}">
         @csrf
+        @extends('layouts.app')
+
+        @section('content')
 
         <div class="banner">
           <h1>Sign-Up</h1>
