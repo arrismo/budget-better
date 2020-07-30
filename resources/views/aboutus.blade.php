@@ -16,7 +16,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large" style="background-color: white;">
+  <div class="w3-bar  w3-card w3-left-align w3-large" style="background-color: white;">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="/welcome" class="w3-bar-item w3-button w3-padding-large w3-white">Go Back</a>
   </div>
@@ -33,8 +33,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container  w3-center" style="padding:128px 16px; background-color: #D9B334;">
-  <h1 class="w3-margin w3-jumbo"> OUR STORY </h1>
-  <p class="w3-xlarge">THE INSPIRATION BEHIND WHAT WE DO</p>
+  <h1 class="w3-margin w3-jumbo" style="color: white;"> OUR STORY </h1>
+  <p class="w3-xlarge" style="color: white;">THE INSPIRATION BEHIND WHAT WE DO</p>
 </header>
 
 <!-- First Grid -->
@@ -82,7 +82,7 @@ We are offering our customers the ability to budget your grants or stipends on t
 </div>
 
 <div class="w3-container w3-center w3-padding-64" style="background-color: #D9B334;">
-    <h1 class="w3-margin w3-xlarge">SIGN UP NOW!</h1>
+    <h1 class="w3-margin w3-xlarge" style="color: white;">SIGN UP NOW!</h1>
 </div>
 
 
