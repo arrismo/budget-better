@@ -69,7 +69,7 @@
                             <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
                             <div class="nav-box navbar-collapse">
                                 <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>Home</strong></a></li>
+                                    <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>New Home</strong></a></li>
                                     <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
 
                                     <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
