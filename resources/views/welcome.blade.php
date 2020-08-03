@@ -27,7 +27,6 @@
         
 
 
-
        
     
     </head>
@@ -69,7 +68,7 @@
                             <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
                             <div class="nav-box navbar-collapse">
                                 <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>New Home</strong></a></li>
+                                    <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>Home</strong></a></li>
                                     <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
 
                                     <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
@@ -77,8 +76,7 @@
                                     <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
                                     <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
-                                    <li data-menuanchor="slide05"><a href="#slide05"><strong>Contact Us</strong></a></li>
-                                    <li><a href="resources/views/aboutus"><strong>About Us</strong></a></li>
+                                    <li data-menuanchor="slide04"><a href="#slide04"><strong>Contact Us</strong></a></li>
                                
 
 
@@ -345,7 +343,7 @@
 
 -->
             <!-- Contact Us Slide-->
-            <div class="section animated-row" data-section="slide05">
+            <div class="section animated-row" data-section="slide04">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-7 wide-col-laptop">
@@ -358,13 +356,13 @@
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <div class="contact-box">
                                             <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
+                                                <i class="fa fa-map-marker"></i> 1 Chapin Way Unit 6793 Northampton, Massachusetts 01063
                                             </div>
                                             <div class="contact-row">
-                                                <i class="fa fa-phone"></i> 123-456-7890
+                                                <i class="fa fa-phone"></i> 929-462-3986
                                             </div>
                                             <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> BudgetBetter@gmail.com
+                                                <i class="fa fa-envelope"></i> Budgetbetter1@gmail.com
                                             </div>
                                         </div>
                                     </div>
@@ -379,7 +377,7 @@
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
-                                            <button class="btn" type="submit">Submit</button>
+                                                <button class="btn" type="submit" name="submit">Submit</button>
                                         </form>
                                         <div id="form-messages" class="mt-3"></div>
                                     </div>
