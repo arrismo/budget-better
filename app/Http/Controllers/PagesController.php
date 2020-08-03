@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
 
+
+
+
 	public function p3()
 	{
 		return view('page_3');
@@ -24,6 +27,21 @@ class PagesController extends Controller
 	{
 		return view('signup');
 	}
+
+
+	public function db(){
+		return view('dashboard');
+	}
+
+	public function about(){
+		return view('aboutus');
+	}
+
+	public function welcome(){
+		return view('welcome');
+	}
+
+
 
 
 
