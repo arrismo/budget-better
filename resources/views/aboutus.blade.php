@@ -27,7 +27,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container  w3-center" style="padding:128px 16px; background-color: #D9B334;">
-  <h1 class="w3-margin w3-jumbo" style="color: white;"> OUR STORY </h1>
+  <h1 class="w3-margin w3-jumbo" style="color: white;"> ABOUT US </h1>
   <p class="w3-xlarge" style="color: white;">THE INSPIRATION BEHIND WHAT WE DO</p>
 </header>
 
