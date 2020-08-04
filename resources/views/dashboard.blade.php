@@ -45,14 +45,19 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto" >
                   <li class="nav-item">
-                  <a class="nav-link" href="#" style="color:white;"> my home  </a>
+                  <a class="nav-link" href="#slide01" style="color:white;"> Home  </a>
                   </li>
 
 
                   <li class="nav-item"> 
-                      <a class="nav-link" href="#" style="color:white;"> contact us   </a>
+                      <a class="nav-link" href="#" style="color:white;"> Contact us   </a>
                   </li>
-                 
+                  
+                  <li class="nav-item"> 
+                        <a class="nav-link" href="#" style="color:white;">
+                      About us 
+                    </a>
+                    </li>
                
                     <!-- Authentication Links -->
                         <li class="nav-item dropdown"> 
@@ -74,11 +79,7 @@
                         </li>
 
 
-                      <li class="nav-item"> 
-                        <a class="nav-link" href="#" style="color:white;">
-                      about us 
-                    </a>
-                    </li>
+                      
 
                 </ul>
             </div>
