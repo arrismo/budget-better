@@ -50,11 +50,11 @@
 
 
                   <li class="nav-item"> 
-                      <a class="nav-link" href="#" style="color:white;"> Contact us   </a>
+                      <a class="nav-link" href="{{ route('welcome#slide04')}}" style="color:white;"> Contact us   </a>
                   </li>
                   
                   <li class="nav-item"> 
-                        <a class="nav-link" href="#" style="color:white;">
+                        <a class="nav-link" href="{{ route('aboutus')}}" style="color:white;">
                       About us 
                     </a>
                     </li>
