@@ -83,11 +83,6 @@
                         </div>
 
                         <div class="wrap-input100 validate-input" data-validate = "Password-Confirm">
-                        @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Confirm') }}</label>
                             <input id="password-confirm" type="password" class="input100 @error('password') is-invalid @enderror" name="password_confirmation">
                     
