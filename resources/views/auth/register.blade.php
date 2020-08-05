@@ -87,8 +87,7 @@
                             <input id="password-confirm" type="password" class="input100 @error('password') is-invalid @enderror" name="password_confirmation" autocomplete="new-password">
                             @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                    </br>
-                                        <strong>{{ $message }}</strong>
+                                        <strong><br>{{ $message }}</strong>
                                     </span>
                                 @enderror
                         </div>
