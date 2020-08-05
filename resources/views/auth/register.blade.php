@@ -84,13 +84,13 @@
 
                         <div class="wrap-input100 validate-input" data-validate = "Password-Confirm">
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Confirm') }}</label>
-                            <input id="password-confirm" type="password" class="input100 @error('password') is-invalid @enderror" name="password_confirmation" autocomplete="new-password">
-                            @error('password')
+                            <input id="password-confirm" type="password" class="input100 @error('password') is-invalid @enderror" name="password_confirmation">
+                        </div>
+                        @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong><br>{{ $message }}</strong>
+                                        <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                        </div>
 
                         <div class="container-login100-form-btn">
                             <button type="submit"  class="login100-form-btn" >
