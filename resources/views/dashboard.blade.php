@@ -90,7 +90,7 @@
 
 
 <h1 style="margin-left: 58px; color: black; margin-top: 20px;" > My Dashboard 
-<a class="btn btn-lg"  style="display: inline-block; margin-left:200px; color: #040502; background-color: #768130;
+<a class="btn btn-lg"  style="display: inline-block; margin-left:800px; color: #040502; background-color: #768130;
 border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </h1>
 
 
