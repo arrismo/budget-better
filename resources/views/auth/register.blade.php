@@ -45,7 +45,7 @@
 
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Name') }}</label>
 
-                            <input id="name" type="name" value="name" class="input100 @error('name') is-invalid @enderror"  autocomplete="name" autofocus>
+                            <input id="name" type="name"  class="input100 @error('name') is-invalid @enderror"  autocomplete="name" autofocus>
                                 @error('name')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
