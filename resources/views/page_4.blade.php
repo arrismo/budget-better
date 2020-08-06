@@ -59,7 +59,7 @@
 
 
       <p class="text-center" style="color: white"> Enter your budget under the "Your Budget" section.  </p>
-      <p class="text-center" style="color: white"> Based on the Our Suggesstions column you can make adjustments to your budget.  </p>
+      <p class="text-center" style="color: white"> Based on the Our Suggestions column you can make adjustments to your budget.  </p>
 
 
 
