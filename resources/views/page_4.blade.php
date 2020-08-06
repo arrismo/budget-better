@@ -58,7 +58,9 @@
 
 
 
-      <h1 class="text-center" style="color: white"> You can change your budget under the "Your Changes" column. </h1>
+      <p class="text-center" style="color: white"> Enter your budget under the "Your Budget" section.  </p>
+      <p class="text-center" style="color: white"> Based on the Our Suggesstions column you can make adjustments to your budget.  </p>
+
 
 
     <div class="card-deck text-center" style="padding-top: 20px; padding-left:20px; padding-right: 20px;">
