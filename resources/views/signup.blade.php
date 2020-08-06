@@ -1,5 +1,60 @@
 <!DOCTYPE html>
 <html>
+<nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
+        <div class="container">
+            <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-370px; ">
+                {{ config('app.name', 'BudgetBetter') }}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
+
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ml-auto" >
+                  <li class="nav-item">
+                  <a class="nav-link" href="{{ route('welcome')}}" style="color:white;"> Home  </a>
+                  </li>
+
+
+                  <li class="nav-item"> 
+                      <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
+                  </li>
+                  
+                  <li class="nav-item"> 
+                        <a class="nav-link" href="{{ route('aboutus')}}" style="color:white;">
+                      About us 
+                    </a>
+                    </li>
+               
+                    <!-- Authentication Links -->
+                        <li class="nav-item dropdown"> 
+                            <a id="navbarDropdown" style="color:white;" class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                              Welcome  {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </div>
+                        </li>
+
+
+                      
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <title>Sign-Up</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
