@@ -1,15 +1,9 @@
-@extends('layouts.app')
+
 <!DOCTYPE html>
 <html lang="en">
 <title>About Us</title>
 <meta charset="UTF-8">
-<meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -27,6 +21,40 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="{{route('welcome') }}" class="w3-bar-item w3-button w3-padding-large w3-white">Go Back</a>
   </div> -->
+<div class="w3-top">
+<nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
+        <div class="container">
+            <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-110px; ">
+                {{ config('app.name', 'BudgetBetter') }}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
+
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ml-auto" >
+                  <li class="nav-item">
+                  <a class="nav-link" href="{{ route('welcome')}}" style="color:white;"> Home  </a>
+                  </li>
+
+
+                  <li class="nav-item"> 
+                      <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
+                  </li>
+               
+                    
+
+
+                      
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
 
   <!-- Navbar on small screens -->
   
