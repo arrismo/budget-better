@@ -32,7 +32,7 @@
 <body>
 <nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
         <div class="container">
-            <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-370px; ">
+            <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-120px; ">
                 {{ config('app.name', 'BudgetBetter') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
