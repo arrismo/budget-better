@@ -58,8 +58,7 @@
 
 
 
-      <h1 class="text-center" style="color: white"> Your Results! </h1>
-      <p class="text-center" style="color: #fff">You can change your budget under the "Your Changes" column. </p>
+      <h1 class="text-center" style="color: white"> You can change your budget under the "Your Changes" column. </h1>
 
 
     <div class="card-deck text-center" style="padding-top: 20px; padding-left:20px; padding-right: 20px;">
@@ -71,12 +70,12 @@
             <ul class="list-group list-group-flush">
               
                 <li class="list-group-item text-left">Food
-                  <input  placeholder="$0.00"  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input  placeholder="$0.00"  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
 
                 <li class="list-group-item text-left">Rent
-                  <input placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
                 <li class="list-group-item text-left">Spending Money
@@ -90,14 +89,14 @@
                       "    
                       
                       
-                      class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                      class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
                 </li>
                 <li class="list-group-item text-left">Transportation
-                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
                 <li class="list-group-item text-left">Other
-                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
               </ul>

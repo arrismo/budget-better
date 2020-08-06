@@ -42,8 +42,10 @@
                         @csrf
                         
                         <div class="wrap-input100 validate-input" data-validate = "Name">
+
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Name') }}</label>
-                            <input id="name" type="name" class="input100 @error('name') is-invalid @enderror" name="name" autocomplete="name" autofocus>
+
+                            <input id="name" type="name" value="name" class="input100 @error('name') is-invalid @enderror"  autocomplete="name" autofocus>
                                 @error('name')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -51,8 +53,11 @@
                                 @enderror
                         </div>
 
+
                         <div class="wrap-input100 validate-input" data-validate = "Email">
+
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Email') }}</label>
+
                             <input id="email" type="email" class="input100 @error('email') is-invalid @enderror" name="email" autocomplete="email">
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -62,6 +67,7 @@
                         </div>
 
                         <div class="wrap-input100 validate-input" data-validate = "Userrname">
+
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Username') }}</label>
                             <input id="username" type="username" class="input100 @error('username') is-invalid @enderror" name="username" autocomplete="username">
                                 @error('username')
@@ -73,6 +79,7 @@
 
 
                         <div class="wrap-input100 validate-input" data-validate = "Password">
+
                             <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Password') }}</label>
                                 <input id="password" type="password" class="input100 @error('password') is-invalid @enderror" name="password" autocomplete="new-password">
                                 @error('password')
