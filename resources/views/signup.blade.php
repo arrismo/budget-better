@@ -15,9 +15,8 @@
 
     <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
 
-
-
 <link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
+
 <nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
         <div class="container">
             <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-110px; ">
@@ -40,12 +39,6 @@
                   <li class="nav-item"> 
                       <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
                   </li>
-                  
-                  <li class="nav-item"> 
-                        <a class="nav-link" href="{{ route('aboutus')}}" style="color:white;">
-                      About us 
-                    </a>
-                    </li>
                
                     
 
