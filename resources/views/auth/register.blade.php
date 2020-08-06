@@ -45,7 +45,7 @@
 
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Name') }}</label>
 
-                            <input id="name" type="name"  class="input100 @error('name') is-invalid @enderror"  autocomplete="name" autofocus>
+                            <input id="name" type="name"  class="input100 @error('name') is-invalid @enderror" name="name" autocomplete="name" >
                                 @error('name')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -58,7 +58,7 @@
 
                         <label style="color:white;" for="password" class="col-md-4 col-form-label text-md-left">{{ __('Email') }}</label>
 
-                            <input id="email" type="email" class="input100 @error('email') is-invalid @enderror" name="email" autocomplete="email">
+                            <input id="email" type="email" class="input100 @error('email') is-invalid @enderror" name="email" autocomplete="email" >
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
