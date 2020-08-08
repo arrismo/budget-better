@@ -367,7 +367,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form id="ajax-contact" method="post" action="<?php echo $this->action('change_my_attribute'); ?>">
+                                        <form id="ajax-contact" method="post" action="<?php echo $this->action('MailController@change_my_attribute'); ?>">
                                             <div class="input-field">
                                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
