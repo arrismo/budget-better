@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('sendbasicemail','MailController@basic_email');
-Route::get('sendhtmlemail','MailController@html_email');
+Route::get('/sendbasicemail','MailController@basic_email');
+Route::get('/sendhtmlemail','MailController@html_email');
 
 Route::get('/', function () {
     return view('welcome');
