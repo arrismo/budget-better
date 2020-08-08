@@ -18,6 +18,7 @@ class MailController extends Controller {
    //    });
    //    echo "Basic Email Sent. Check your inbox.";
    // }
+
    public function html_email() {
       $data = array('name'=>"User", 'msg'=>"helooo");
 
