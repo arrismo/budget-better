@@ -30,10 +30,4 @@ class MailController extends Controller {
       echo "HTML Email Sent. Check your inbox.";
    }    
 
-   public function change_my_attribute() {
-      $cID = $this->post('name');
-      $newValue = $this->post('email');
-      // $c = Page::getByID($cID);
-      // $c->setAttribute(CollectionAttributeKey::getByHandle('my_attribute_handle'), $new_value);
-  }
 }

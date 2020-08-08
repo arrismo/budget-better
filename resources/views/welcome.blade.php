@@ -367,7 +367,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form id="ajax-contact">
+                                        <form id="ajax-contact" method="POST" action="/sendhtmlemail">
                                             <div class="input-field">
                                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
@@ -377,7 +377,7 @@
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
-                                                <button href="{{action('MailController@html_email')}}" class="btn" type="submit" name="submit">Submit</button>
+                                                <button class="btn" type="submit" name="submit">Submit</button>
                                         </form>
                                         <div id="form-messages" class="mt-3"></div>
                                     </div>
