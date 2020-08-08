@@ -58,5 +58,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Mail sending
 // Route::get('/sendbasicemail','MailController@basic_email');
 Route::get('/sendhtmlemail','MailController@html_email');
+Route::post('/sendhtmlemail','MailController@html_email');
 Route::post('html_email','MailController@html_email')->name('html_email');
 
