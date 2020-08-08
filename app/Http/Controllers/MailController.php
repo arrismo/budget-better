@@ -26,5 +26,5 @@ class MailController extends Controller {
          $message->from('budgetbetter1@gmail.com','Virat Gandhi');
       });
       echo "HTML Email Sent. Check your inbox.";
-   }
+   }    
 }
