@@ -19,16 +19,8 @@
         <link rel="stylesheet" href="{{asset('css/animate.css')}}">
         
         <link rel="stylesheet" href="{{asset('css/templatemo-style.css')}}">
-
-
-    
       
         <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
-        
-
-
-       
-    
     </head>
     <body>
         <script>0</script>
@@ -440,14 +432,12 @@
             </div>
         </div>
     </div>  
-
-  
-
-            
-
-
-
-
-
+    <script type="text/javascript">
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
     </body>
 </html>
