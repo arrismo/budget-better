@@ -377,7 +377,7 @@
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
-                                                <button class="btn" onclick="html_email('{{ $name->name }}');" type="submit" name="submit">Submit</button>
+                                                <button class="btn" onclick="MailController@html_email();" type="submit" name="submit">Submit</button>
                                         </form>
                                         <div id="form-messages" class="mt-3"></div>
                                     </div>
