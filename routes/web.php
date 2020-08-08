@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/sendbasicemail','MailController@basic_email');
-// Route::get('/sendhtmlemail','MailController@html_email');
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -57,3 +54,8 @@ Route::get('/resources/views/page_4', 'PagesController@p4')->name('page_4');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Mail sending
+// Route::get('/sendbasicemail','MailController@basic_email');
+Route::get('/sendhtmlemail','MailController@html_email');
+
