@@ -9,8 +9,7 @@ use App\Http\Controllers\Controller;
 
 class MailController extends Controller {
    public function basic_email() {
-      $data = array('name'=>"User");
-      $data = array('msg'=>"helooo");
+      $data = array('name'=>"User", 'msg'=>"helooo");
    
       Mail::send(['text'=>'mail'], $data, function($message) {
          $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
