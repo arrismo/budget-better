@@ -29,5 +29,13 @@ class MailController extends Controller {
       });
       echo "HTML Email Sent. Check your inbox.";
    }    
+   
+   protected function tokensMatch($request)
+    {
+        $token = $this->getTokenFromRequest($request);
+        return is_string($request->session()->token()) &&
+               is_string($token) &&
+               hash_equals($request->session()->token(), $token);
+    }
 
 }
