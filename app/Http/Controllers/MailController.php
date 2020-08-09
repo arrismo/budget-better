@@ -12,17 +12,17 @@ class MailController extends Controller {
       // $user = new User;
       $name = $request['name'];
       $email = $request['email'];
-      $msg = $request['msg'];
-      dd($email);
-      print($email);
-      // $user->save();
+      $msg = $request['message'];
 
-      // Mail::send('mail', $data, function($message) {
-      //    $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
-      //       ('Email sent from website');
-      //    $message->from($email, $name);
-      // });
+      $data = array('name'=>$name,'msg'=>$msg);
 
-      // echo "HTML Email Sent. Check your inbox.";
+
+      Mail::send('mail', $data, function($message) {
+         $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
+            ('Email sent from website');
+         $message->from($email, $name);
+      });
+
+      echo "HTML Email Sent. Check your inbox.";
    }    
 }
