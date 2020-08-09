@@ -62,6 +62,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/sendhtmlemail',function (Request $request) {
     $name = $request->input('name');
-    echo $nname;
+    echo $name;
     error_log($name);
 });
