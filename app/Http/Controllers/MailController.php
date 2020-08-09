@@ -14,14 +14,16 @@ class MailController extends Controller {
       $name = $input['name'];
       $email = $input['email'];
       $msg = $input['msg'];
+      dd($email);
+      print($email);
       // $user->save();
 
-      Mail::send('mail', $data, function($message) {
-         $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
-            ('Email sent from website');
-         $message->from($email, $name);
-      });
+      // Mail::send('mail', $data, function($message) {
+      //    $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
+      //       ('Email sent from website');
+      //    $message->from($email, $name);
+      // });
 
-      echo "HTML Email Sent. Check your inbox.";
+      // echo "HTML Email Sent. Check your inbox.";
    }    
 }
