@@ -9,7 +9,6 @@ use App\Http\Controllers\Controller;
 
 class MailController extends Controller {
    public function html_email(Request $request) {
-      $input = Input::only('name','email','message');            
       // $user = new User;
       $name = $input['name'];
       $email = $input['email'];
