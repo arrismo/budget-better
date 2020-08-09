@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,6 +60,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Route::get('/sendbasicemail','MailController@basic_email');
 // Route::post('/sendhtmlemail','MailController@html_email');
 
-Route::post('/sendhtmlemail',function () {
-    echo "heloo";
+Route::post('/sendhtmlemail?',function () {
+    $name = $request->input('name');
+    echo $nname;
+    error_log($name);
 });
