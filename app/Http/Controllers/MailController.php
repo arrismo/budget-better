@@ -6,7 +6,6 @@ use Mail;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
 class MailController extends Controller {
    public function html_email(Request $request) {
