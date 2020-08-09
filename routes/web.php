@@ -60,8 +60,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Route::get('/sendbasicemail','MailController@basic_email');
 // Route::post('/sendhtmlemail','MailController@html_email');
 
-Route::post('/sendhtmlemail',function (Request $request) {
-    $name = $request->input('name');
-    echo $name;
-    error_log($name);
-});
+Route::post('/sendhtmlemail', 'MailController@html_email');
+
+// Route::post('/sendhtmlemail',function (Request $request) {
+//     $name = $request->input('name');
+//     echo $name;
+//     error_log($name);
+// });

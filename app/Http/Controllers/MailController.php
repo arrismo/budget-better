@@ -6,36 +6,21 @@ use Mail;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 class MailController extends Controller {
-   // public function basic_email() {
-   //    $data = array('name'=>"User", 'msg'=>"helooo");
-   
-   //    Mail::send(['text'=>'mail'], $data, function($message) {
-   //       $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
-   //          ('Laravel Basic Testing Mail');
-   //       $message->from('example@gmail.com','User');
-   //    });
-   //    echo "Basic Email Sent. Check your inbox.";
-   // }
-
-   public function html_email() {
-      $data = array('name'=>"User", 'msg'=>"helooo");
+   public function html_email(Request $request) {
+      $name = $request->input('name');
+      $email = $request->input('email');
+      $message = $request->input('message');
+      $data = array('name'=>$name, 'msg'=>$message);
 
       Mail::send('mail', $data, function($message) {
-         $message->to('budgetbetter1@gmail.com', 'Tutorials Point')->subject
-            ('Laravel HTML Testing Mail');
-         $message->from('budgetbetter1@gmail.com','Virat Gandhi');
+         $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
+            ('Email sent from website');
+         $message->from($email, $name);
       });
+
       echo "HTML Email Sent. Check your inbox.";
    }    
-
-   // protected function tokensMatch($request)
-   //  {
-   //      $token = $this->getTokenFromRequest($request);
-   //      return is_string($request->session()->token()) &&
-   //             is_string($token) &&
-   //             hash_equals($request->session()->token(), $token);
-   //  }
-
 }
