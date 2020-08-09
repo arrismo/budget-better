@@ -362,13 +362,13 @@
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <form id="ajax-contact" method="POST" action="/sendhtmlemail">
                                             <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                                <input type="text" class="form-control" name="name" id="name" value="{{$name}}" required placeholder="Name">
                                             </div>
                                             <div class="input-field">
-                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                                                <input type="email" class="form-control" name="email" id="email" value="{{$email}}" required placeholder="Email">
                                             </div>
                                             <div class="input-field">
-                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+                                                <textarea class="form-control" name="message" id="message" value="{{$msg}}" required placeholder="Message"></textarea>
                                             </div>
                                                 <button class="btn" type="submit" name="submit">Submit</button>
                                         </form>
