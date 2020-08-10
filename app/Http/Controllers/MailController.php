@@ -11,8 +11,9 @@ class MailController extends Controller {
    public function html_email(Request $request) {
       // $user = new User;
       $name = $request->input('name');
+      $email = $request->input('email');
       $msg = $request->input('message');
-      $data = array('name'=>$name,'msg'=>$msg);
+      $data = array('name'=>$name,'msg'=>$msg, 'email'=>$email);
 
 
       Mail::send('mail', $data, function($message) {
