@@ -10,8 +10,8 @@ use App\Http\Controllers\Controller;
 class MailController extends Controller {
    public function html_email(Request $request) {
       // $user = new User;
-      $msg = $request->all();
-      $data = array('name'=>'ME','msg'=>$msg[0]);
+      $msg = $request->input('name');
+      $data = array('name'=>'ME','msg'=>$msg);
 
 
       Mail::send('mail', $data, function($message) {
