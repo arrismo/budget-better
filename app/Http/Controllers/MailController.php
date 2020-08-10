@@ -18,7 +18,7 @@ class MailController extends Controller {
       Mail::send('mail', $data, function() {
          $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
             ('Email sent from website');
-         $message->from($email, $name);
+         $message->from('website', 'website');
       });
 
       echo "HTML Email Sent. Check your inbox.";
