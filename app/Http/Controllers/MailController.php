@@ -10,15 +10,16 @@ use App\Http\Controllers\Controller;
 class MailController extends Controller {
    public function html_email(Request $request) {
       // $user = new User;
-      // $msg = $request->input('name');
-      $msg = $request->input('email');
-      $data = array('name'=>'ME','msg'=>$msg);
+      $name = $request->input('name');
+      $msg = $request->input('message');
+      $data = array('name'=>$name,'msg'=>$msg);
 
-
-      Mail::send('mail', $data, function($message) {
+      Mail::send('mail', $data, function() {
+         $name = $request->input('name');
+         $email = $request->input('email');
          $message->to('budgetbetter1@gmail.com', 'BudgetBetter')->subject
             ('Email sent from website');
-         $message->from('abc@email.com', 'meeee');
+         $message->from($email, $name);
       });
 
       echo "HTML Email Sent. Check your inbox.";
