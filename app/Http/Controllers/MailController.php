@@ -10,9 +10,9 @@ use App\Http\Controllers\Controller;
 class MailController extends Controller {
    public function html_email(Request $request) {
       // $user = new User;
-      $name = $request['name'];
-      $email = $request['email'];
-      $msg = $request['message'];
+      $name = $_POST['name'];
+      $email = $_POST['email'];
+      $msg = $_POST['message'];
 
       $data = array('name'=>$name,'msg'=>$msg);
 
