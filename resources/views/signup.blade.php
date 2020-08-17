@@ -54,9 +54,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <style>
       body {
-        background: #f12711; 
-        background: -webkit-linear-gradient(to right,#f5af19,#f12711); 
-        background: linear-gradient(to right,#f5af19,#f12711); 
+        background: #818b34
       }
       html, body {
       min-height: 100%;
@@ -207,7 +205,7 @@
 
       @csrf
 
-        <div class="banner">
+        <di class="banner">
           <h1>Sign-Up</h1>
         </div>
 
