@@ -325,7 +325,7 @@
 
 -->
             <!-- Contact Us Slide-->
-            <div class="section animated-row" data-section="slide04">
+            <div class="section animated-row" data-section="slide03">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-7 wide-col-laptop">
