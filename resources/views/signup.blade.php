@@ -219,9 +219,10 @@
           <option value="3">Semester</option>
         </select>
         <br>
-        <p>What location will you be in?</p>
+
 
         <div style="width:200px;" data-validate = "Location">
+        <p>What location will you be in?</p>
           <select name="location" id="location" required>
             <option value="">Select Country</option>
             <option value="Afganistan">Afghanistan</option>
