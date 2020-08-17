@@ -67,7 +67,7 @@
                                     <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
 
                                     <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
-                                    <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
+                                    <!-- <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li> -->
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
                                     <li data-menuanchor="slide04"><a href="#slide04"><strong>Contact Us</strong></a></li>
                                
