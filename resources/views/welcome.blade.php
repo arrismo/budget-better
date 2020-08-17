@@ -229,21 +229,6 @@
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/Sakina.jpg" alt="Sakina's Picture" style="width:380px;height:400px;">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4 style="text-align:center;">Sakina Ali</h4>
-                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
-                                                    <br> <span style="color: #fd7e14"> Double Major: </span> Computer Science & Biochemistry
-                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> You can find me dancing with Smith’s South Asian Dance Team, SC Masti or on a mountain, hiking with my friends.
-                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
                                                 <img src="images/Neamat.png" alt="Neamat's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
