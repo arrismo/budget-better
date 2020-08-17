@@ -218,7 +218,7 @@
           <option value="2">Internship</option>
           <option value="3">Semester</option>
         </select>
-        <br>
+        <br><br>
 
 
         <div style="width:200px;" data-validate = "Location">
