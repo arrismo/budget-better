@@ -210,7 +210,7 @@
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
-
+      <br><br>
         <p>What experience are you budgeting for?</p>
         <select style="width:200px;" name="experience" id="experience" required>
           <option value="">Select experience:</option>
@@ -493,7 +493,7 @@
           <p>Your program end date</p>
           <input style="width:200px;" type="date" required></input>
         </div>
-
+        <br><br>
         <div class="btn-block">
           <button type="submit" >SUBMIT</button>
         </div>
