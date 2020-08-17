@@ -218,7 +218,7 @@
           <option value="2">Internship</option>
           <option value="3">Semester</option>
         </select>
-
+        <br>
         <p>What location will you be in?</p>
 
         <div style="width:200px;" data-validate = "Location">
@@ -473,7 +473,7 @@
           </select>
           
         </div>
-
+        <br>
         <p>How long will your experience be?</p>
         <div>
           <select style="width:200px;" name="time" id="time" required>
@@ -483,12 +483,12 @@
             <option value="3">Years</option>
           </select>
         </div>
-
+        <br>
         <div>
           <p>Your program start date</p>
           <input style="width:200px;" type="date" required></input>
         </div>
-
+        <br>
         <div>
           <p>Your program end date</p>
           <input style="width:200px;" type="date" required></input>
