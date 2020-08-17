@@ -172,8 +172,8 @@
             </div>
           
 
-
-            <div class="section animated-row" data-section="slide03">
+<!--This is the teams section that will uncommented until further notice-->
+            <!-- <div class="section animated-row" data-section="slide03">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-8 wide-col-laptop">
@@ -261,7 +261,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+<!--This is the teams section that will uncommented until further notice-->
+
+
+
 
             <!-- Testimonals Slide
             <div class="section animated-row" data-section="slide04">
