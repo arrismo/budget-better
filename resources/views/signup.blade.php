@@ -207,7 +207,7 @@
 
       @csrf
 
-        <di class="banner">
+        <div class="banner">
           <h1>Sign-Up</h1>
         </div>
 
