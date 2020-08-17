@@ -212,7 +212,7 @@
         </div>
 
         <p>What experience are you budgeting for?</p>
-        <select name="experience" id="experience" required>
+        <select style="width:200px;" name="experience" id="experience" required>
           <option value="">Select experience:</option>
           <option value="1">Study abroad</option>
           <option value="2">Internship</option>
@@ -221,7 +221,7 @@
 
         <p>What location will you be in?</p>
 
-        <div class="custom-select" style="width:200px;" data-validate = "Location">
+        <div style="width:200px;" data-validate = "Location">
           <select name="location" id="location" required>
             <option value="">Select Country</option>
             <option value="Afganistan">Afghanistan</option>
@@ -475,8 +475,8 @@
         </div>
 
         <p>How long will your experience be?</p>
-        <div class="custom-select" style="width:200px;">
-          <select name="time" id="time" required>
+        <div>
+          <select style="width:200px;" name="time" id="time" required>
             <option value="">Select duration</option>
             <option value="1">Days</option>
             <option value="2">Weeks</option>
@@ -484,14 +484,14 @@
           </select>
         </div>
 
-        <div style="width:200px;">
+        <div>
           <p>Your program start date</p>
-          <input type="date" required></input>
+          <input style="width:200px;" type="date" required></input>
         </div>
 
-        <div style="width:200px;">
+        <div>
           <p>Your program end date</p>
-          <input type="date" required></input>
+          <input style="width:200px;" type="date" required></input>
         </div>
 
         <div class="btn-block">
