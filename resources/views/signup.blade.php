@@ -37,7 +37,7 @@
 
 
                   <li class="nav-item"> 
-                      <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
+                      <a class="nav-link" href="{{ route('welcome')}}#slide03" style="color:white;"> Contact us   </a>
                   </li>
                
                     
