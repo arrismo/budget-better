@@ -26,7 +26,7 @@ class PagesController extends Controller
     }
 
 	public function p4() {
-		runScript();
+		$this->runScript();
 		return view('page_4');
 	}
 
