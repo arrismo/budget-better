@@ -10,6 +10,8 @@ class BudgetController extends Controller {
         $process = new Process(['python', 'app/Http/Controllers/scrapinngScript.py']);
         $process->run();
 
+        // what's going on y'all
+
         // executes after the command finishes
         if (!$process->isSuccessful()) {
             throw new ProcessFailedException($process);
