@@ -72,8 +72,8 @@
             <ul class="list-group list-group-flush">
               
                 <li class="list-group-item text-left">Food
-                  <input  placeholder="$0.00"  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
-
+                  <input  placeholder="{{ $process }}"  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
+                  {{ $process }}
                 </li>
 
                 <li class="list-group-item text-left">Rent

@@ -56,14 +56,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Mail sending
-// Route::get('/sendbasicemail','MailController@basic_email');
-// Route::post('/sendhtmlemail','MailController@html_email');
-
 Route::post('/sendhtmlemail', 'MailController@html_email');
 
-// Route::post('/sendhtmlemail',function (Request $request) {
-//     $name = $request->input('name');
-//     echo $name;
-//     error_log($name);
-// });
+Route::get('/resources/views/page_4', 'BudgetController@runScript');
