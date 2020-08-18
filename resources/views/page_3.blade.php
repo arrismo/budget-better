@@ -43,20 +43,13 @@
     	
     	
 
-    	 <a class="btn btn-lg" style="display: inline-block;
-color: #212529;
-background-color: #FFFFFF;
+    	 <a class="btn btn-lg" style="display: inline-block; color: #212529; background-color: #FFFFFF;
 border-color: #FFFFFF;" href="{{ route('signup') }}" role="button" >Go Back</a>
 
 
 
-    	<a class="btn btn-lg"  style="display: inline-block;
-color: #212529;
-background-color: #FFFFFF;
-border-color: #FFFFFF;"   href="{{ route('page_4') }}" role="button" >Continue</a>
-
-      <!--   <button type="button" class="btn btn-light btn-lg" href="{{ route('page_4') }}" >Continue </button>
-          -->
+    	<a class="btn btn-lg"  style="display: inline-block; color: #212529; background-color: #FFFFFF;
+border-color: #FFFFFF;"href="{{ route('page_4') }}" role="button" >Continue</a>
 
     </div> 
 <!-- Copyright -->

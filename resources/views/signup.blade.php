@@ -37,7 +37,7 @@
 
 
                   <li class="nav-item"> 
-                      <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
+                      <a class="nav-link" href="{{ route('welcome')}}#slide03" style="color:white;"> Contact us   </a>
                   </li>
                
                     
@@ -99,7 +99,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      background-color: #d0cba4;
+      background-color: #818b34;
       }
       .banner::after {
       content: "";
@@ -210,19 +210,21 @@
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
-
+      <br><br>
         <p>What experience are you budgeting for?</p>
-        <select>
-          <option value="0">Select experience:</option>
+        <select style="width:200px;" name="experience" id="experience" required>
+          <option value="">Select experience:</option>
           <option value="1">Study abroad</option>
           <option value="2">Internship</option>
           <option value="3">Semester</option>
         </select>
+        <br><br>
 
+
+        <div style="width:200px;" data-validate = "Location">
         <p>What location will you be in?</p>
-        <div class="custom-select" style="width:200px;">
-          <select>
-            <option value="Select">Select Country</option>
+          <select name="location" id="location" required>
+            <option value="">Select Country</option>
             <option value="Afganistan">Afghanistan</option>
             <option value="Albania">Albania</option>
             <option value="Algeria">Algeria</option>
@@ -470,28 +472,29 @@
             <option value="Zambia">Zambia</option>
             <option value="Zimbabwe">Zimbabwe</option>
           </select>
+          
         </div>
-
+        <br>
         <p>How long will your experience be?</p>
-        <div class="custom-select" style="width:200px;">
-          <select>
-            <option value="0">Select duration</option>
+        <div>
+          <select style="width:200px;" name="time" id="time" required>
+            <option value="">Select duration</option>
             <option value="1">Days</option>
             <option value="2">Weeks</option>
             <option value="3">Years</option>
           </select>
         </div>
-
-        <div style="width:200px;">
+        <br>
+        <div>
           <p>Your program start date</p>
-          <input type="date"></input>
+          <input style="width:200px;" type="date" required></input>
         </div>
-
-        <div style="width:200px;">
+        <br>
+        <div>
           <p>Your program end date</p>
-          <input type="date"></input>
+          <input style="width:200px;" type="date" required></input>
         </div>
-
+        <br><br>
         <div class="btn-block">
           <button type="submit" >SUBMIT</button>
         </div>

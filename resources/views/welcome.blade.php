@@ -67,9 +67,9 @@
                                     <li ><a href="{{ route('register')}}"><strong>Sign Up </strong></a></li> 
 
                                     <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
-                                    <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li>
+                                    <!-- <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li> -->
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
-                                    <li data-menuanchor="slide04"><a href="#slide04"><strong>Contact Us</strong></a></li>
+                                    <li data-menuanchor="slide03"><a href="#slide03"><strong>Contact Us</strong></a></li>
                                
 
 
@@ -172,8 +172,8 @@
             </div>
           
 
-
-            <div class="section animated-row" data-section="slide03">
+<!--This is the teams section that will uncommented until further notice-->
+            <!-- <div class="section animated-row" data-section="slide03">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-8 wide-col-laptop">
@@ -229,21 +229,6 @@
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/Sakina.jpg" alt="Sakina's Picture" style="width:380px;height:400px;">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4 style="text-align:center;">Sakina Ali</h4>
-                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
-                                                    <br> <span style="color: #fd7e14"> Double Major: </span> Computer Science & Biochemistry
-                                                    <br> <span style="color: #fd7e14"> Hobbies: </span> You can find me dancing with Smith’s South Asian Dance Team, SC Masti or on a mountain, hiking with my friends.
-                                                    <br> <span style="color: #fd7e14"> Role: </span> Developer
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
                                                 <img src="images/Neamat.png" alt="Neamat's Picture" style="width:380px;height:400px;">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
@@ -276,7 +261,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+<!--This is the teams section that will uncommented until further notice-->
+
+
+
 
             <!-- Testimonals Slide
             <div class="section animated-row" data-section="slide04">
@@ -336,7 +325,7 @@
 
 -->
             <!-- Contact Us Slide-->
-            <div class="section animated-row" data-section="slide04">
+            <div class="section animated-row" data-section="slide03">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-7 wide-col-laptop">
