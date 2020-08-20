@@ -19,10 +19,9 @@ class PagesController extends Controller
         $process = new Process(['python', 'app/Http/Controllers/scrapingScript.py']);
 		$process->run();
 
-		echo $process;
-
         // executes after the command finishes
-        if (!$process->isSuccessful()) {
+        if (! $process->isSuccessful()) {
+			echo $process->getErrorOutput(); 
             throw new ProcessFailedException($process);
         }
 
