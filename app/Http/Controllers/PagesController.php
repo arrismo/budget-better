@@ -16,10 +16,10 @@ class PagesController extends Controller
 	}
 
 	public function runScript(){
-        $process = new Process(['python', 'app/Http/Controllers/scrapinngScript.py']);
-        $process->run();
+        $process = new Process(['python', 'app/Http/Controllers/scrapingScript.py']);
+		$process->run();
 
-        // what's going on y'all
+		echo $process;
 
         // executes after the command finishes
         if (!$process->isSuccessful()) {
