@@ -16,7 +16,7 @@ class PagesController extends Controller
 	}
 
 	public function runScript(){
-        $process = new Process(['python', 'app/Http/Controllers/scrapingScript.py']);
+        $process = new Process("python3 app/Http/Controllers/scrapingScript.py");
 		$process->run();
 
         // executes after the command finishes
