@@ -41,9 +41,9 @@
                   </li>
 
 
-                  <li class="nav-item"> 
+                  <!-- <li class="nav-item"> 
                       <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
-                  </li>
+                  </li> -->
                   
                   <li class="nav-item"> 
                         <a class="nav-link" href="{{ route('aboutus')}}" style="color:white;">
@@ -92,7 +92,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
     </div>
     <div class="w3-col s8 w3-bar">
       <span>Welcome, <strong>{{ Auth::user()->name }}</strong></span><br>
-      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+      <a href="{{ route('welcome')}}#slide04" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
     </div>
