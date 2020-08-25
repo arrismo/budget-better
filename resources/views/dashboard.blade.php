@@ -218,11 +218,11 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
 </div> -->
 
-<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+<div class="w3-main" style="margin-left:300px;margin-top:3px;">
 
   <!-- Header -->
   <header class="w3-container" style="padding-top:22px">
-    <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+    <h5><b> My Dashboard</b></h5>
   </header>
 
   <div class="w3-row-padding w3-margin-bottom">
@@ -233,7 +233,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
           <h3>52</h3>
         </div>
         <div class="w3-clear"></div>
-        <h4>Messages</h4>
+        <h4>Food</h4>
       </div>
     </div>
     <div class="w3-quarter">
@@ -243,7 +243,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
           <h3>99</h3>
         </div>
         <div class="w3-clear"></div>
-        <h4>Views</h4>
+        <h4>Rent</h4>
       </div>
     </div>
     <div class="w3-quarter">
@@ -253,7 +253,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
           <h3>23</h3>
         </div>
         <div class="w3-clear"></div>
-        <h4>Shares</h4>
+        <h4>Spending Money</h4>
       </div>
     </div>
     <div class="w3-quarter">
@@ -263,7 +263,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
           <h3>50</h3>
         </div>
         <div class="w3-clear"></div>
-        <h4>Users</h4>
+        <h4>Transportation</h4>
       </div>
     </div>
   </div>
