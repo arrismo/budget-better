@@ -322,7 +322,6 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
     <h5>Resources</h5>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
-        <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Boston Stats<span class="w3-opacity w3-medium"></span></h4>
@@ -332,7 +331,6 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
     <div class="w3-row">
       <div class="w3-col m2 text-center">
-        <img class="w3-circle" src="/w3images/avatar1.png" style="width:96px;height:96px">
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Food and markets <span class="w3-opacity w3-medium"></span></h4>
