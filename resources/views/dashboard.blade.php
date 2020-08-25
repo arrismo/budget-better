@@ -288,11 +288,11 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
           </tr>
           <tr>
             <td><i class="fa fa-comment w3-text-red w3-large"></i></td>
-            <td>Program starts: June 1 2020</td>
+            <td>Program starts: June 1, 2020</td>
           </tr>
           <tr>
             <td><i class="fa fa-bookmark w3-text-blue w3-large"></i></td>
-            <td>Program ends: August 30 2020</td>
+            <td>Program ends: August 30, 2020</td>
           </tr>
         </table>
       </div>
@@ -317,38 +317,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
     </div>
   </div>
   <hr>
-
-  <div class="w3-container">
-    <h5>Countries</h5>
-    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
-      <tr>
-        <td>United States</td>
-        <td>65%</td>
-      </tr>
-      <tr>
-        <td>UK</td>
-        <td>15.7%</td>
-      </tr>
-      <tr>
-        <td>Russia</td>
-        <td>5.6%</td>
-      </tr>
-      <tr>
-        <td>Spain</td>
-        <td>2.1%</td>
-      </tr>
-      <tr>
-        <td>India</td>
-        <td>1.9%</td>
-      </tr>
-      <tr>
-        <td>France</td>
-        <td>1.5%</td>
-      </tr>
-    </table><br>
-    <button class="w3-button w3-dark-grey">More Countries  <i class="fa fa-arrow-right"></i></button>
-  </div>
-  <hr>
+  
   <div class="w3-container">
     <h5>Recent Users</h5>
     <ul class="w3-ul w3-card-4 w3-white">
