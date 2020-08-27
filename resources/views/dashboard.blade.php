@@ -226,7 +226,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
         <div class="w3-right">
 
-          <h3 id="showNum"></h3>
+          <h3 id="num"> Name</h3>
 
         </div>
         <div class="w3-clear"></div>
@@ -347,6 +347,9 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
 <script language="javascript" type="text/javascript">
+    var num = localStorage.getItem("selectNum");
+    console.log(localStorage.getItem("selectNum"));
+
 
   
   </script>
