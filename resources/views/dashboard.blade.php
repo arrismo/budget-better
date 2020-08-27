@@ -216,9 +216,12 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 <div class="w3-main" style="margin-left:300px;margin-top:3px;">
 
   <!-- Header -->
+
   <header class="w3-container" style="padding-top:22px">
     <h5><b> My Dashboard</b></h5>
   </header>
+
+  
 
   <div class="w3-row-padding w3-margin-bottom">
     <div class="w3-quarter">
@@ -226,7 +229,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
         <div class="w3-right">
 
-          <h3 id="num"> Name</h3>
+          <h3 id="num"> </h3>
 
         </div>
         <div class="w3-clear"></div>
@@ -347,10 +350,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
 <script language="javascript" type="text/javascript">
-    var num = localStorage.getItem("selectNum");
-    console.log(localStorage.getItem("selectNum"));
-
-
+    document.getElementById("num").innerHTML=localStorage.getItem("textvalue");
   
   </script>
 
