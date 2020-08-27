@@ -90,18 +90,19 @@ We are offering our customers the ability to budget your grants or stipends on t
 </h5>
     </div>
 
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64" style="color: #76802F;"></i>
-    </div>
+    {{-- <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64" aria-hidden="true" style="color: #76802F;"></i>
+    </div> --}}
   </div>
 </div>
 
 <!-- Second Grid -->
 <div class="w3-row-padding  w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-third w3-center">
+
+    {{-- <div class="w3-third w3-center">
       <i class="fa fa-coffee w3-padding-64  w3-margin-right" style="color: #76802F;"></i>
-    </div>
+    </div> --}}
 
     <div class="w3-twothird">
       <h1>MISSION STATEMENT</h1>
