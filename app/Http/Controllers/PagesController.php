@@ -28,10 +28,10 @@ class PagesController extends Controller
     //     echo $process->getOutput(); 
     // }
 
-	public function p4() {
-		$this->runScript();
-		return view('page_4');
-	}
+	// public function p4() {
+	// 	$this->runScript();
+	// 	return view('page_4');
+	// }
 
 	public function sp()
 	{
