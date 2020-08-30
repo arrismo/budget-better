@@ -2,7 +2,7 @@
 #!/usr/bin/python
 
 import requests
-from bs4 import BeautifulSoup
+from bs3 import BeautifulSoup    
 
 URL = 'https://www.expatistan.com/cost-of-living/boston'
 page = requests.get(URL)

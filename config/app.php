@@ -189,7 +189,10 @@ return [
     */
 
     'aliases' => [
-
+        // neamt added this could be terribly wrong
+        'Goutte' => Weidner\Goutte\GoutteFacade::class, // [2] It will register as an alias for the Goutte facade
+        // neamt added this could be terribly wrong
+        
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,

@@ -1,1 +1,0 @@
-hi this works lol<?php /**PATH /Users/mikael/Documents/GitHub/budget-better/BudgetBetter/resources/views/internships.blade.php ENDPATH**/ ?>

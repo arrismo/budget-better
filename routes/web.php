@@ -57,3 +57,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/sendhtmlemail', 'MailController@html_email');
+
+Route::get('/web-scraping','GoutteController@doWebScraping');
