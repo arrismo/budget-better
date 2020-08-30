@@ -28,7 +28,7 @@ class GoutteController extends Controller
             // convert it to foat
             $floatFinal = floatval($noDollarSigns);
 
-            $prices[] = $floatFinal;
+            array_push($pricesm, $floatFinal);
 
             // convert to float
             echo "<script>console.log($floatFinal)</script>";
