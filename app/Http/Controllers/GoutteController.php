@@ -23,7 +23,7 @@ class GoutteController extends Controller
             print "\n";
             print  $noCommas ;
             print "\n";
-            print $noCommas[0];
+            print $noCommas[1];
             print "\n";
             $noSigns = floatval(ltrim($noCommas, $noCommas[0]));
             print $noSigns;
