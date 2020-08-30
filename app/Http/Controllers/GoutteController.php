@@ -34,8 +34,8 @@ class GoutteController extends Controller
             echo "<script>console.log($floatFinal)</script>";
         });
 
-        $first = $arr[0];
+        // $first = $arr[0];
         // here here 
-        echo "<script>console.log($first)</script>";
+        echo "<script>console.log($arr)</script>";
     }
 }
