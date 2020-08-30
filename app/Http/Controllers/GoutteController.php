@@ -16,8 +16,8 @@ class GoutteController extends Controller
             'verify' => false
         ));
         $goutteClient->setClient($guzzleClient);
-        $crawler = $goutteClient->request('GET', 'https://duckduckgo.com/html/?q=Laravel');
-        $crawler->filter('.result__title .result__a')->each(function ($node) {
+        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
+        $crawler->filter('.price')->each(function ($node) {
             dump($node->text());
         });
     }
