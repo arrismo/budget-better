@@ -37,6 +37,7 @@ class GoutteController extends Controller
             echo "<script>console.log($floatFinal)</script>";
         });
 
+        global $prices;
         echo $prices[0];
     }
 }
