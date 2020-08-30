@@ -45,21 +45,12 @@ class PagesController extends Controller
         global $prices;
 
         $foodSum = $prices[1] + $prices[3] + $prices[4] + $prices[5] + $prices[6] + $prices[7] + $prices[8] + $prices[9];
-        // echo $foodSum;
-
         $housingSum = $prices[18] +  $prices[19] +  $prices[20] +  $prices[23];
-        // echo $housingSum;
-
-        $spendSum =  $prices[43] +  $prices[47] +  $prices[51] +  $prices[25];
-        // echo $spendSum;
-
+		$spendSum =  $prices[43] +  $prices[47] +  $prices[51] +  $prices[25];
         $travelSum =  $prices[31];
-        // echo $travelSum;
-
         $otherSum =  $prices[33] +  $prices[36] +  $prices[37] +  $prices[38] +  $prices[39] +  $prices[40];
-		// echo $otherSum;
-		
-		return view('page_4', ["foodSum"=>$foodSum]);
+
+		return view('page_4', ["foodSum"=>$foodSum, "housingSum"=>$housingSum, "spendSum"=>$spendSum, "travelSum"=>$travelSum, "otherSum"=>$otherSum]);
 	}
 
 	public function sp()

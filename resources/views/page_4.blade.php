@@ -118,11 +118,11 @@
 
                 </li>
                 <li class="list-group-item text-left" >Rent
-                  <input  placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input  placeholder={{$housingSum}} style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
 
                 </li>
                 <li class="list-group-item text-left">Spending Money
-                  <input  placeholder="$0.00" style="  
+                  <input  placeholder={{$spendSum}} style="  
                       background-color:#fff; 
                       width:25%; background-clip:padding-box; 
                       border: 1px solid black; 
@@ -136,11 +136,11 @@
 
                 </li>
                 <li class="list-group-item text-left">Transportation
-                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input   placeholder={{$travelSum}} style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
 
                 </li>
                 <li class="list-group-item text-left">Other
-                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
+                  <input   placeholder={{$otherSum}} style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>  
 
                 </li>
               </ul>
