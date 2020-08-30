@@ -20,7 +20,6 @@ class GoutteController extends Controller
         $prices = array();
         $crawler->filter('.price')->each(function ($node) {
             global $prices;
-            echo $prices;
 
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
@@ -32,6 +31,7 @@ class GoutteController extends Controller
             $floatFinal = floatval($noDollarSigns);
 
             $prices[] = $floatFinal;
+            echo $prices[0];
 
             // convert to float
             echo "<script>console.log($floatFinal)</script>";
