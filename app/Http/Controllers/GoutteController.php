@@ -17,6 +17,7 @@ class GoutteController extends Controller
         ));
         $goutteClient->setClient($guzzleClient);
         $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
+        $arr = array();
         $crawler->filter('.price')->each(function ($node) {
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
@@ -27,8 +28,13 @@ class GoutteController extends Controller
             // convert it to foat
             $floatFinal = floatval($noDollarSigns);
 
+            array_push($arr, $floatFinal);
+
             // convert to float
             echo "<script>console.log($floatFinal)</script>";
         });
+
+        $first = $arr[0];
+        echo "<script>console.log($first)</script>";
     }
 }
