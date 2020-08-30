@@ -15,6 +15,7 @@ class PagesController extends Controller
 	}
 
 	public function p4() {
+		// start scrappinng data from website
 		$goutteClient = new Client();
         $guzzleClient = new GuzzleClient(array(
             'timeout' => 60,
@@ -38,7 +39,7 @@ class PagesController extends Controller
             // add to array
             $prices[] = $floatFinal;
             
-            // convert to float
+            // log to console for debugging
             // echo "<script>console.log($floatFinal)</script>";
         });
 
