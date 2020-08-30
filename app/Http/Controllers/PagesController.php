@@ -59,7 +59,7 @@ class PagesController extends Controller
         $otherSum =  $prices[33] +  $prices[36] +  $prices[37] +  $prices[38] +  $prices[39] +  $prices[40];
 		// echo $otherSum;
 		
-		return view('page_4', $foodSum);
+		return view('page_4', ["foodSum"=>$foodSum]);
 	}
 
 	public function sp()
