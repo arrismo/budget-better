@@ -19,8 +19,7 @@ class GoutteController extends Controller
         $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
         $crawler->filter('.price')->each(function ($node) {
             $noCommas = str_replace(",", "", $node->text()."\n");
-            $noSigns = floatval(ltrim($noCommas, $noCommas[0]));
-            echo "<script>console.log($noSigns)</script>";
+            echo "<script>console.log($noCommas[0])</script>";
         });
     }
 }
