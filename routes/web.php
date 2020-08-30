@@ -58,4 +58,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/sendhtmlemail', 'MailController@html_email');
 
-Route::get('/resources/views/page_4','GoutteController@doWebScraping');
+// Route::get('/resources/views/page_4','GoutteController@doWebScraping');
