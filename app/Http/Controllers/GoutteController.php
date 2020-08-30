@@ -32,13 +32,14 @@ class GoutteController extends Controller
 
             // add to array
             $prices[] = $floatFinal;
-            echo $floatFinal;
             
             // convert to float
             echo "<script>console.log($floatFinal)</script>";
         });
 
         global $prices;
-        echo $prices[0];
+
+        $foodSum = $prices[1] + $prices[3] + $prices[4] + $prices[5] + $prices[6] + $prices[7] + $prices[8] + $prices[9];
+        echo $foodSum;
     }
 }
