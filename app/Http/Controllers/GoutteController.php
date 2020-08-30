@@ -35,6 +35,7 @@ class GoutteController extends Controller
         });
 
         $first = $arr[0];
+        // here here 
         echo "<script>console.log($first)</script>";
     }
 }
