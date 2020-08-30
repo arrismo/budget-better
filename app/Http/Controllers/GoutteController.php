@@ -34,24 +34,24 @@ class GoutteController extends Controller
             $prices[] = $floatFinal;
             
             // convert to float
-            echo "<script>console.log($floatFinal)</script>";
+            // echo "<script>console.log($floatFinal)</script>";
         });
 
         global $prices;
 
         $foodSum = $prices[1] + $prices[3] + $prices[4] + $prices[5] + $prices[6] + $prices[7] + $prices[8] + $prices[9];
-        echo $foodSum;
+        // echo $foodSum;
 
         $housingSum = $prices[18] +  $prices[19] +  $prices[20] +  $prices[23];
-        echo $housingSum;
+        // echo $housingSum;
 
         $spendSum =  $prices[43] +  $prices[47] +  $prices[51] +  $prices[25];
-        echo $spendSum;
+        // echo $spendSum;
 
         $travelSum =  $prices[31];
-        echo $travelSum;
+        // echo $travelSum;
 
         $otherSum =  $prices[33] +  $prices[36] +  $prices[37] +  $prices[38] +  $prices[39] +  $prices[40];
-        echo $otherSum;
+        // echo $otherSum;
     }
 }
