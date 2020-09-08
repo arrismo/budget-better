@@ -2,7 +2,7 @@
 <html lang="en">
 
 <html>
-<head>
+<!-- <head>
 	<title>Budget Better</title>
 
 <meta charset="UTF-8">
@@ -19,7 +19,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+</head> -->
+<head>
+	<title>Budget Better</title>
 </head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
 
 <body>
 <nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
@@ -97,9 +109,9 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
   </div>
   <div class="w3-bar-block">
     <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
-    <a href="#info" class="w3-bar-item w3-button w3-padding" data-menuanchor="info"><i class="fa fa-eye fa-fw"></i>  My Info</a>
-    <a href="#general" class="w3-bar-item w3-button w3-padding" data-menuanchor="general"><i class="fa fa-users fa-fw"></i>  General Stats</a>
+    <a href="#overview" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
+    <a href="#info" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  My Info</a>
+    <a href="#general" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  General Stats</a>
   </div>
 </nav>
 
@@ -216,7 +228,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
   <!-- Header -->
 
-  <header class="w3-container" style="padding-top:22px">
+  <header class="w3-container" style="padding-top:22px" id="overview"> 
     <h5><b> My Dashboard</b></h5>
   </header>
 
@@ -268,7 +280,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
   </div>
 
   <div class="w3-panel">
-    <div class="w3-row-padding" style="margin:0 -16px" data-section="info">
+    <div class="w3-row-padding" style="margin:0 -16px" id="info">
     
       <div class="w3-twothird">
         <h5>Your Info</h5>
@@ -298,7 +310,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
     </div>
   </div>
   <hr>
-  <div class="w3-container" data-menuanchor="general">
+  <div class="w3-container" id="general">
     <h5>General Stats</h5>
     <p>Food</p>
     <div class="w3-grey">
