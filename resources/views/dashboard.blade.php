@@ -98,8 +98,8 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
   <div class="w3-bar-block">
     <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
     <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  My Info</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  General Stats</a>
+    <a href="#info" class="w3-bar-item w3-button w3-padding" data-menuanchor="info"><i class="fa fa-eye fa-fw"></i>  My Info</a>
+    <a href="#general" class="w3-bar-item w3-button w3-padding" data-menuanchor="general"><i class="fa fa-users fa-fw"></i>  General Stats</a>
   </div>
 </nav>
 
@@ -268,7 +268,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
   </div>
 
   <div class="w3-panel">
-    <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-row-padding" style="margin:0 -16px" data-section="info">
     
       <div class="w3-twothird">
         <h5>Your Info</h5>
@@ -298,7 +298,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
     </div>
   </div>
   <hr>
-  <div class="w3-container">
+  <div class="w3-container" data-menuanchor="general">
     <h5>General Stats</h5>
     <p>Food</p>
     <div class="w3-grey">
