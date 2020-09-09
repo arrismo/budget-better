@@ -81,7 +81,7 @@
       justify-content: center;
       align-items: center;
       height: inherit;
-      padding: 100px;
+      padding: 60px;
       }
       form {
       width: 100%;
