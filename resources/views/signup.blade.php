@@ -212,7 +212,7 @@
       <br><br>
         <p>What experience are you budgeting for?</p>
         <select style="width:200px;" name="experience" id="experience" required>
-          <option value="">Select Experience:</option>
+          <option value="">Select Experience</option>
           <option value="1">Study Abroad</option>
           <option value="2">Internship</option>
           <option value="3">Semester</option>
