@@ -322,12 +322,13 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
   <div class="w3-container">
     <h5>Resources</h5>
+    <br>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
       </div>
       <div class="w3-col m10 w3-container">
-        <h4>Boston Stats<span class="w3-opacity w3-medium"></span></h4>
-        <p>Link goes here</p><br>
+        <h4>Boston Sites<span class="w3-opacity w3-medium"></span></h4>
+        <p href="https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html">https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html</p><br>
       </div>
     </div>
 
@@ -336,7 +337,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Food and markets <span class="w3-opacity w3-medium"></span></h4>
-        <p>Link goes here</p><br>
+        <p href="https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.">https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.</p><br>
       </div>
     </div>
   </div>
