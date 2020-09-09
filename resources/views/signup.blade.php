@@ -65,6 +65,7 @@
       padding: 0;
       margin: 0;
       outline: none;
+      font-family:Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
       font-size: 14px;
       color: #666;
       line-height: 22px;
