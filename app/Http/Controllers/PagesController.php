@@ -15,7 +15,7 @@ class PagesController extends Controller
 		return view('page_3');
 	}
 
-	public function p4() {
+	public function p4(Request $request) {
 		// start scrappinng data from website
 		$goutteClient = new Client();
         $guzzleClient = new GuzzleClient(array(
@@ -26,7 +26,7 @@ class PagesController extends Controller
         // $city = $request->input('city');
         // echo '<script>console.log($city)</script>';
         // echo $city;
-        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/');
+        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
