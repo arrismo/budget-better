@@ -23,9 +23,9 @@ class PagesController extends Controller
             'verify' => false
         ));
         $goutteClient->setClient($guzzleClient);
-        $city = $request->input('city');
-        echo '<script>console.log($city)</script>';
-        echo $city;
+        // $city = $request->input('city');
+        // echo '<script>console.log($city)</script>';
+        // echo $city;
         $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/');
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
