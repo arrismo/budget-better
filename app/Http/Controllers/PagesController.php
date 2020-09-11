@@ -10,12 +10,15 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller
 {
-	public function p3()
+	public function p3(Request $request)
 	{
+        $city = $request->input('city');
+        echo "<script>console.log($city)</script>";
+        echo $city;
 		return view('page_3');
 	}
 
-	public function p4(Request $request) {
+	public function p4() {
 		// start scrappinng data from website
 		$goutteClient = new Client();
         $guzzleClient = new GuzzleClient(array(
@@ -23,9 +26,7 @@ class PagesController extends Controller
             'verify' => false
         ));
         $goutteClient->setClient($guzzleClient);
-        $city = $request->input('city');
-        echo "<script>console.log($city)</script>";
-        echo $city;
+
         $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
