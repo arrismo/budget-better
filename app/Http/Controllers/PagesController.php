@@ -15,7 +15,7 @@ class PagesController extends Controller
 		return view('page_3');
 	}
 
-	public function p4(Request $request) {
+	public function p4() {
 		// start scrappinng data from website
 		$goutteClient = new Client();
         $guzzleClient = new GuzzleClient(array(
