@@ -12,8 +12,10 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="//geodata.solutions/includes/countrystatecity.js"></script>
 
-    <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
 
 <link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
 
@@ -223,7 +225,16 @@
 
         <div style="width:200px;" data-validate = "Location">
         <p>What location will you be in?</p>
-          <select name="location" id="location" required>
+        <select name="country" class="countries" id="countryId">
+            <option value="">Select Country</option>
+        </select>
+        <select name="state" class="states" id="stateId">
+            <option value="">Select State</option>
+        </select>
+        <select name="city" class="cities" id="cityId">
+            <option value="">Select City</option>
+        </select>
+          <!-- <select name="location" id="location" required>
             <option value="">Select Country</option>
             <option value="Afganistan">Afghanistan</option>
             <option value="Albania">Albania</option>
@@ -473,7 +484,7 @@
             <option value="Zimbabwe">Zimbabwe</option>
           </select>
           
-        </div>
+        </div> -->
         <br>
         <p>How long will your experience be?</p>
         <div>

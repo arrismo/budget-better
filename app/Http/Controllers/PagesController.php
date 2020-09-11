@@ -4,9 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use Goutte\Client;
-use GuzzleHttp\Client as GuzzleClient;
-
 class PagesController extends Controller
 {
 	public function p3()
