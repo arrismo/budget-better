@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -12,10 +12,15 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+<<<<<<< HEAD
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="//geodata.solutions/includes/countrystatecity.js"></script>
 
 <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
+=======
+<!-- 
+<link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" > -->
+>>>>>>> 69d1837065c065e0667534723389a1c23c3231ce
 
 <link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
 
@@ -52,8 +57,8 @@
         </div>
     </nav>
     <title>Sign-Up</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
     <style>
       body {
         background: #f12711; 
@@ -67,7 +72,7 @@
       padding: 0;
       margin: 0;
       outline: none;
-      font-family: Roboto, Arial, sans-serif;
+      font-family:Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
       font-size: 14px;
       color: #666;
       line-height: 22px;
@@ -84,7 +89,7 @@
       justify-content: center;
       align-items: center;
       height: inherit;
-      padding: 100px;
+      padding: 60px;
       }
       form {
       width: 100%;
@@ -150,7 +155,7 @@
       cursor: pointer;
       }
       button:hover {
-      background: #ff0066;
+      background: #f5ab1b;
       }
       @media (min-width: 568px) {
       .name-item, .contact-item {
@@ -215,8 +220,8 @@
       <br><br>
         <p>What experience are you budgeting for?</p>
         <select style="width:200px;" name="experience" id="experience" required>
-          <option value="">Select experience:</option>
-          <option value="1">Study abroad</option>
+          <option value="">Select Experience</option>
+          <option value="1">Study Abroad</option>
           <option value="2">Internship</option>
           <option value="3">Semester</option>
         </select>
@@ -489,7 +494,7 @@
         <p>How long will your experience be?</p>
         <div>
           <select style="width:200px;" name="time" id="time" required>
-            <option value="">Select duration</option>
+            <option value="">Select Duration</option>
             <option value="1">Days</option>
             <option value="2">Weeks</option>
             <option value="3">Years</option>

@@ -2,24 +2,27 @@
 <html lang="en">
 
 <html>
+
 <head>
 	<title>Budget Better</title>
+</head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
-<link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
 
+
+<!-- <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" > -->
+<link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</head>
 
 <body>
 <nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
@@ -97,9 +100,9 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
   </div>
   <div class="w3-bar-block">
     <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  My Info</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  General Stats</a>
+    <a href="#overview" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Overview</a>
+    <a href="#info" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  My Info</a>
+    <a href="#general" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  General Stats</a>
   </div>
 </nav>
 
@@ -216,7 +219,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
   <!-- Header -->
 
-  <header class="w3-container" style="padding-top:22px">
+  <header class="w3-container" style="padding-top:22px" id="overview"> 
     <h5><b> My Dashboard</b></h5>
   </header>
 
@@ -268,7 +271,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
   </div>
 
   <div class="w3-panel">
-    <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-row-padding" style="margin:0 -16px" id="info">
     
       <div class="w3-twothird">
         <h5>Your Info</h5>
@@ -298,11 +301,11 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
     </div>
   </div>
   <hr>
-  <div class="w3-container">
+  <div class="w3-container" id="general">
     <h5>General Stats</h5>
     <p>Food</p>
     <div class="w3-grey">
-      <div class="w3-container w3-center w3-padding w3-green" style="width:25%">+35%</div>
+      <div class="w3-container w3-center w3-padding w3-green" style="width:35%">35%</div>
     </div>
 
     <p>Rent</p>
@@ -312,19 +315,20 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
 
     <p>Transportation</p>
     <div class="w3-grey">
-      <div class="w3-container w3-center w3-padding w3-red" style="width:75%">15%</div>
+      <div class="w3-container w3-center w3-padding w3-red" style="width:5%">15%</div>
     </div>
   </div>
   <hr>
 
   <div class="w3-container">
     <h5>Resources</h5>
+    <br>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
       </div>
       <div class="w3-col m10 w3-container">
-        <h4>Boston Stats<span class="w3-opacity w3-medium"></span></h4>
-        <p>Link goes here</p><br>
+        <h4>Boston Sites<span class="w3-opacity w3-medium"></span></h4>
+        <p href="https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html">https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html</p><br>
       </div>
     </div>
 
@@ -333,7 +337,7 @@ border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Food and markets <span class="w3-opacity w3-medium"></span></h4>
-        <p>Link goes here</p><br>
+        <p href="https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.">https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.</p><br>
       </div>
     </div>
   </div>
