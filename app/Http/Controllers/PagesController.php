@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Goutte\Client;
+use GuzzleHttp\Client as GuzzleClient;
+
 class PagesController extends Controller
 {
 	public function p3()
@@ -19,7 +22,10 @@ class PagesController extends Controller
             'verify' => false
         ));
         $goutteClient->setClient($guzzleClient);
-        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
+        $city = $request->input('city');
+        echo '<script>console.log($city)</script>';
+        echo $city;
+        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/'+$city);
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
@@ -47,7 +53,7 @@ class PagesController extends Controller
 		$spendSum =  $prices[43] +  $prices[47] +  $prices[51] +  $prices[25];
         $travelSum =  $prices[31];
         $otherSum =  $prices[33] +  $prices[36] +  $prices[37] +  $prices[38] +  $prices[39] +  $prices[40];
-
+        
 		return view('page_4', ["foodSum"=>$foodSum, "housingSum"=>$housingSum, "spendSum"=>$spendSum, "travelSum"=>$travelSum, "otherSum"=>$otherSum]);
 	}
 

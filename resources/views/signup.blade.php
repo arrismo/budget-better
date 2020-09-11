@@ -12,15 +12,10 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<<<<<<< HEAD
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="//geodata.solutions/includes/countrystatecity.js"></script>
 
 <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
-=======
-<!-- 
-<link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" > -->
->>>>>>> 69d1837065c065e0667534723389a1c23c3231ce
 
 <link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
 
@@ -211,9 +206,7 @@
   <body>
     <div class="testbox">
       <form  action="{{ route('page_3') }}">
-
       @csrf
-
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
