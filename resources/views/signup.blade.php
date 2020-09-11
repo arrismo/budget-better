@@ -205,7 +205,7 @@
 
   <body>
     <div class="testbox">
-      <form  action="{{ route('page_3') }}">
+      <form method="POST" action="{{ route('page_3') }}">
       @csrf
         <div class="banner">
           <h1>Sign-Up</h1>
