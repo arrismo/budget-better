@@ -20,8 +20,10 @@ class PagesController extends Controller
 	}
 
 	public function p4() {
+        echo 'WHERE';
         echo $this->city;
         echo "<script>console.log($this->city);</script>";
+        echo 'WHEREEE';
 
 		// start scrappinng data from website
 		$goutteClient = new Client();
