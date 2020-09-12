@@ -41,7 +41,7 @@ Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 
 Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
 
-Route::get('/resources/views/page_4/$city', 'PagesController@p4')->name('page_4');
+Route::post('/resources/views/page_4/$city', 'PagesController@p4')->name('page_4');
 
 Auth::routes();
 
