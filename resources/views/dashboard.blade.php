@@ -86,7 +86,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- <h1 style="margin-left: 58px; color: black; margin-top: 20px;" > My Dashboard 
 <a class="btn btn-lg"  style="display: inline-block; margin-left:1020px; color: #040502; background-color: #768130;
-border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </h1> -->
+{{-- border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </h1> --> --}}
 
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container w3-row">
