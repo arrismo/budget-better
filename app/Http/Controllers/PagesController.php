@@ -10,11 +10,12 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller
 {
-    public $city;
+    protected $city;
 
 	public function p3(Request $request)
 	{
-        $this->city = $request->input('city');
+        $reqInfo = $request->input('city');
+        $this->city = $reqInfo;
         echo $this->city;
 		return view('page_3');
 	}
@@ -22,6 +23,7 @@ class PagesController extends Controller
 	public function p4() {
         echo 'WHERE';
         echo $this->city;
+        echo $city;
         echo "<script>console.log($this->city);</script>";
         echo 'WHEREEE';
 
