@@ -49,7 +49,7 @@ border-color: #FFFFFF;" href="{{ route('signup') }}" role="button" >Go Back</a>
 
 
     	<a class="btn btn-lg"  style="display: inline-block; color: #212529; background-color: #FFFFFF;
-border-color: #FFFFFF;" href="/page_4/{{$city}}" method="POST" role="button" >Continue</a>
+border-color: #FFFFFF;" href="/resources/views/page_4/{{$city}}" method="POST" role="button" >Continue</a>
 
     </div> 
 <!-- Copyright -->
