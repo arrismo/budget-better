@@ -19,7 +19,7 @@ class PagesController extends Controller
 	}
 
 	public function p4() {
-        echo $this->$city;
+        echo $this->city;
 
 		// start scrappinng data from website
 		$goutteClient = new Client();
