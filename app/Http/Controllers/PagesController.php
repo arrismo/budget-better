@@ -8,21 +8,15 @@ use App\Http\Requests;
 use Goutte\Client;
 use GuzzleHttp\Client as GuzzleClient;
 
-class PagesController extends Controller
-{
-    protected $city;
+class PagesController extends Controller{
 
-	public function p3(Request $request)
-	{
+	public function p3(Request $request)	{
         $reqInfo = $request->input('city');
-        $this->city = $reqInfo;
-        echo $this->city;
-		return view('page_3');
+		return view('page_3', ["city"=>$city]);
 	}
 
-	public function p4() {
+	public function p4($city) {
         echo 'WHERE';
-        echo $this->city;
         echo $city;
         echo "<script>console.log($this->city);</script>";
         echo 'WHEREEE';
