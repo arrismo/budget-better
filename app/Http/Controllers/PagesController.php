@@ -14,7 +14,7 @@ class PagesController extends Controller
 
 	public function p3(Request $request)
 	{
-        $this->$city = $request->input('city');
+        $this->city = $request->input('city');
 		return view('page_3');
 	}
 
