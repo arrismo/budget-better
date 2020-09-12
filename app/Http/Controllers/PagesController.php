@@ -19,7 +19,7 @@ class PagesController extends Controller{
 	public function p4($city) {
         echo 'WHERE';
         echo $city;
-        echo "<script>console.log($this->city);</script>";
+        echo "<script>console.log($city);</script>";
         echo 'WHEREEE';
 
 		// start scrappinng data from website
