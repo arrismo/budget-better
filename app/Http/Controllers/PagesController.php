@@ -10,11 +10,12 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller
 {
-    private $city;
+    public $city;
 
 	public function p3(Request $request)
 	{
         $this->city = $request->input('city');
+        echo $this->city;
 		return view('page_3');
 	}
 
