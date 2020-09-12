@@ -31,6 +31,8 @@ class PagesController extends Controller{
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
 
+            echo "<script>console.log($node->text())</script>";
+
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
             
