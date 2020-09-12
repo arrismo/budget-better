@@ -21,6 +21,7 @@ class PagesController extends Controller
 
 	public function p4() {
         echo $this->city;
+        echo "<script>console.log($this->city);</script>";
 
 		// start scrappinng data from website
 		$goutteClient = new Client();
