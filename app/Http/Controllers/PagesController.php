@@ -30,7 +30,7 @@ class PagesController extends Controller{
         ));
         $goutteClient->setClient($guzzleClient);
 
-        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/' . strval($city));
+        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/' . strtolower(strval($city)));
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
