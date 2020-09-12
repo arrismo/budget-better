@@ -12,15 +12,15 @@ class PagesController extends Controller{
 
 	public function p3(Request $request)	{
         $city = $request->input('city');
-        echo $city;
+        // echo $city;
 		return view('page_3', ["city"=>$city]);
 	}
 
 	public function p4($city) {
-        echo 'WHERE';
-        echo $city;
-        echo "<script>console.log($city);</script>";
-        echo 'WHEREEE';
+        // echo 'WHERE';
+        // echo $city;
+        // echo "<script>console.log($city);</script>";
+        // echo 'WHEREEE';
 
 		// start scrappinng data from website
 		$goutteClient = new Client();
@@ -30,7 +30,7 @@ class PagesController extends Controller{
         ));
         $goutteClient->setClient($guzzleClient);
 
-        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/madrid');
+        $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/'+$city);
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
