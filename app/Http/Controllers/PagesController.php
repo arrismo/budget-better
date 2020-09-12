@@ -34,11 +34,11 @@ class PagesController extends Controller{
 
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
-            echo $noCommas;
             
             // replace all non ascii chars like $
             $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
-            
+            echo $noDollarSigns;
+
             // convert it to foat
             $floatFinal = floatval($noDollarSigns);
 
