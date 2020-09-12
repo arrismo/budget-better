@@ -31,10 +31,10 @@ class PagesController extends Controller{
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
             $nodeText = $node->text();
-            echo $nodeText;
 
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
+            echo $noCommas;
             
             // replace all non ascii chars like $
             $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
