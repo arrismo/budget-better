@@ -45,6 +45,6 @@ Route::get('/resources/views/page_4/{city}', 'PagesController@p4')->name('page_4
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/sendhtmlemail', 'MailController@html_email');
