@@ -17,12 +17,7 @@ class PagesController extends Controller{
 	}
 
 	public function p4($city) {
-        // echo 'WHERE';
-        // echo $city;
-        // echo "<script>console.log($city);</script>";
-        // echo 'WHEREEE';
-
-		// start scrappinng data from website
+        // start scrappinng data from website
 		$goutteClient = new Client();
         $guzzleClient = new GuzzleClient(array(
             'timeout' => 60,
@@ -49,7 +44,7 @@ class PagesController extends Controller{
             $prices[] = $floatFinal;
             
             // log to console for debugging
-            // echo "<script>console.log($floatFinal)</script>";
+            echo "<script>console.log($floatFinal)</script>";
         });
 
         global $prices;
