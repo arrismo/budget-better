@@ -11,7 +11,7 @@ use GuzzleHttp\Client as GuzzleClient;
 class PagesController extends Controller{
 
 	public function p3(Request $request)	{
-        $reqInfo = $request->input('city');
+        $city = $request->input('city');
 		return view('page_3', ["city"=>$city]);
 	}
 
