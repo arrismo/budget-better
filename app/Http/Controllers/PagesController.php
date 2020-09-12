@@ -13,12 +13,14 @@ class PagesController extends Controller
 	public function p3(Request $request)
 	{
         $city = $request->input('city');
-        echo "<script>console.log($city, 4)</script>";
-        echo $city;
+        global $city;
 		return view('page_3');
 	}
 
 	public function p4() {
+        global $city;
+        echo $city;
+
 		// start scrappinng data from website
 		$goutteClient = new Client();
         $guzzleClient = new GuzzleClient(array(

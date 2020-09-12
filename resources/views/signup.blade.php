@@ -30,7 +30,6 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
              
-
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto" >
                   <li class="nav-item">
@@ -41,12 +40,7 @@
                   <li class="nav-item"> 
                       <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
                   </li>
-               
-                    
-
-
-                      
-
+              
                 </ul>
             </div>
         </div>
