@@ -10,16 +10,16 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller
 {
+    private $city;
+
 	public function p3(Request $request)
 	{
-        $city = $request->input('city');
-        global $city;
+        $this->$city = $request->input('city');
 		return view('page_3');
 	}
 
 	public function p4() {
-        global $city;
-        echo $city;
+        echo $this->$city;
 
 		// start scrappinng data from website
 		$goutteClient = new Client();
