@@ -65,9 +65,9 @@
                                     <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
                                    <li>
                                        
-                                    @if (session('status'))
+                                    
                                     <a href="{{ route('dashboard')}}"><strong> Dashboard </strong></a>
-                                    @endif
+                                    
     
 
 
