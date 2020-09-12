@@ -13,7 +13,7 @@ class PagesController extends Controller
 	public function p3(Request $request)
 	{
         $city = $request->input('city');
-        echo "<script>console.log($city)</script>";
+        echo "<script>console.log($city, 4)</script>";
         echo $city;
 		return view('page_3');
 	}
