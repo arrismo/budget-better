@@ -65,8 +65,9 @@
                                     <li ><a href="{{ route('login')}}"><strong>Login </strong></a></li>
                                    <li>
                                        
-                                    
-                                    <a href="{{ route('dashboard')}}"><strong> Dashboard </strong></a>
+                                    @if (Auth::user()->name)
+                                    <a href="{{ route('dashboard')}}"><strong> My Dashboard </strong></a> 
+                                    @endif
                                     
     
 
