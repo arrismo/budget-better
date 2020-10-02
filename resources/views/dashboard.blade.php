@@ -325,21 +325,21 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <br>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
-      <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
+      <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Boston Sites<span class="w3-opacity w3-medium"></span></h4>
-        <p href="https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html">https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html</p><br>
+        <a href="https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html">https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html</a><br>
       </div>
     </div>
 
     <div class="w3-row">
       <div class="w3-col m2 text-center">
-      <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
+      <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Food and markets <span class="w3-opacity w3-medium"></span></h4>
-        <p href="https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.">https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.</p><br>
+        <a href="https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.">https://smartasset.com/mortgage/the-cost-of-living-in-boston#:~:text=If%20your%20budget%20is%20tight,food%20in%20Boston%20is%20pricey.</a><br>
       </div>
     </div>
   </div>
