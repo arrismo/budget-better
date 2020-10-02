@@ -332,7 +332,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <a href="https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html">https://www.tripadvisor.com/ShowTopic-g60745-i48-k7333669-Boston_1_week_Budget-Boston_Massachusetts.html</a><br>
       </div>
     </div>
-
+    <br>
+    <br>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
       <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
