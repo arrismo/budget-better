@@ -325,6 +325,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <br>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
+      <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Boston Sites<span class="w3-opacity w3-medium"></span></h4>
@@ -334,6 +335,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-col m2 text-center">
+      <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
       </div>
       <div class="w3-col m10 w3-container">
         <h4>Food and markets <span class="w3-opacity w3-medium"></span></h4>
