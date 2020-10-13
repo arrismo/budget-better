@@ -95,7 +95,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      background-color: linear-gradient(to bottom, #F9D423, #e65c00);
+      background: linear-gradient(to bottom, #F9D423, #e65c00);
       }
       .banner::after {
       content: "";
