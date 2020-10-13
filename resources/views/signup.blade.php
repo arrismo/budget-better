@@ -95,7 +95,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      background-color: #818b34;
+      background-color: linear-gradient(to bottom, #F9D423, #e65c00);
       }
       .banner::after {
       content: "";
@@ -506,9 +506,9 @@
     </div>
 </body>
 <!-- Copyright -->
-<div style="color:black;text-align:center" class="footer-copyright text-center py-3">© 2020 Copyright:
+<!-- <div style="color:black;text-align:center" class="footer-copyright text-center py-3">© 2020 Copyright:
       BudgetBetter
-</div>
+</div> -->
     <!-- Copyright -->
 </html>
 
