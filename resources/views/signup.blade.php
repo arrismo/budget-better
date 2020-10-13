@@ -99,7 +99,6 @@
       }
       .banner::after {
       content: "";
-      background-color: rgba(0, 0, 0, 0.4); 
       position: absolute;
       width: 100%;
       height: 100%;
@@ -142,6 +141,7 @@
       font-size: 16px;
       color: #fff;
       cursor: pointer;
+      
       }
       button:hover {
       background: #f5ab1b;
@@ -484,7 +484,8 @@
             <option value="">Select Duration</option>
             <option value="1">Days</option>
             <option value="2">Weeks</option>
-            <option value="3">Years</option>
+            <option value="3">Months</option>
+            <option value="4">Years</option>
           </select>
         </div>
         <br>
