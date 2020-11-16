@@ -10,7 +10,7 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller{
 
-    var $resultStr = "";
+    // var $resultStr = "";
 
 	public function p3(Request $request)	{
         $city = $request->input('city');
@@ -18,7 +18,7 @@ class PagesController extends Controller{
 		return view('page_3', ["city"=>$city]);
     }
     
-    public function extractNums(String $priceStr){
+    public function extractNums(String $priceStr, String $resultStr){
         // priceStr ex: €14 
 
         // $resultStr;
@@ -56,11 +56,13 @@ class PagesController extends Controller{
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
             
+
+            global $resultNums;
             // // replace all non ascii chars like $
             // $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
             // echo $noDollarSigns;
 
-            $numStr = $this->extractNums($noCommas);
+            $numStr = $this->extractNums($noCommas, $resultStr);
             echo $numStr;
             echo "<script>console.log($numStr)</script>";
 
