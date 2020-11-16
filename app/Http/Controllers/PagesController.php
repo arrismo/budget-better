@@ -57,7 +57,7 @@ class PagesController extends Controller{
             $noCommas = str_replace(",", "", $node->text()."\n");
             
 
-            global $resultNums;
+            global $resultStr;
             // // replace all non ascii chars like $
             // $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
             // echo $noDollarSigns;
