@@ -10,7 +10,7 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller{
 
-    var $resultStr;
+    var $resultStr = "";
 
 	public function p3(Request $request)	{
         $city = $request->input('city');
