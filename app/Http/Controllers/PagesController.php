@@ -57,7 +57,7 @@ class PagesController extends Controller{
             // $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
             // echo $noDollarSigns;
 
-            $numStr = extractNums($noCommas);
+            $numStr = $this->extractNums($noCommas);
             echo $numStr;
             echo "<script>console.log($numStr)</script>";
 
