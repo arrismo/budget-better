@@ -10,6 +10,8 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller{
 
+    var $resultStr;
+
 	public function p3(Request $request)	{
         $city = $request->input('city');
         // echo $city;
@@ -19,7 +21,7 @@ class PagesController extends Controller{
     public function extractNums(String $priceStr){
         // priceStr ex: €14 
 
-        $resultStr;
+        // $resultStr;
         $nums = array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
         $letters = str_split($priceStr);
 
