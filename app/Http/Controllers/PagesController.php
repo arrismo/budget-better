@@ -14,7 +14,25 @@ class PagesController extends Controller{
         $city = $request->input('city');
         // echo $city;
 		return view('page_3', ["city"=>$city]);
-	}
+    }
+    
+    public function extractNums(String $priceStr){
+        // priceStr ex: €14 
+
+        $resultStr;
+        $nums = array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+        $letters = str_split($priceStr);
+
+        foreach ($letters as $char){
+            # if current character is in list of numbers
+            if(array_search($char, $nums)){
+                # add to resulting string 
+                $resultStr = $resultStr . $char;
+            }
+        }
+
+        return $resultStr;
+    }
 
 	public function p4($city) {
         // start scrappinng data from website
@@ -35,15 +53,16 @@ class PagesController extends Controller{
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
             
-            // replace all non ascii chars like $
-            $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
-            echo $noDollarSigns;
+            // // replace all non ascii chars like $
+            // $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
+            // echo $noDollarSigns;
 
-            // convert it to foat
-            $floatFinal = floatval($noDollarSigns);
+            $numStr = extractNums($noCommas);
+            echo $numStr;
+            echo "<script>console.log($numStr)</script>";
 
-            // add to array
-            $prices[] = $floatFinal;
+            // add float version to array
+            $prices[] = floatval($numStr);
             
             // log to console for debugging
             echo "<script>console.log($floatFinal)</script>";
