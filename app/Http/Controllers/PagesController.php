@@ -18,7 +18,7 @@ class PagesController extends Controller{
 		return view('page_3', ["city"=>$city]);
     }
     
-    public function extractNums(String $priceStr, String $resultStr){
+    public function extractNums($priceStr, $resultStr){
         // priceStr ex: €14 
 
         // $resultStr;
@@ -60,7 +60,7 @@ class PagesController extends Controller{
             global $resultStr;
             // // replace all non ascii chars like $
             // $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
-            // echo $noDollarSigns;
+            // echo $noDgollarSigns;
 
             $numStr = $this->extractNums($noCommas, $resultStr);
             echo $numStr;
