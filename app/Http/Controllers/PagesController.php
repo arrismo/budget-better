@@ -29,6 +29,7 @@ class PagesController extends Controller{
             # if current character is in list of numbers
             if(array_search($char, $nums)){
                 # add to resulting string 
+                echo $resultStr;
                 $resultStr = $resultStr . $char;
             }
         }
