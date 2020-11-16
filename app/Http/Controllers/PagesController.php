@@ -68,9 +68,6 @@ class PagesController extends Controller{
 
             // add float version to array
             $prices[] = floatval($numStr);
-            
-            // log to console for debugging
-            echo "<script>console.log($floatFinal)</script>";
         });
 
         global $prices;
