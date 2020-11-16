@@ -10,8 +10,6 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller{
 
-    // var $resultStr = "";
-
 	public function p3(Request $request)	{
         $city = $request->input('city');
         // echo $city;
@@ -26,10 +24,9 @@ class PagesController extends Controller{
         $letters = str_split($priceStr);
 
         foreach ($letters as $char){
-            # if current character is in list of numbers
+            // if current character is in list of numbers
             if(array_search($char, $nums)){
-                # add to resulting string 
-                echo $resultStr;
+                // add to resulting string 
                 $resultStr = $resultStr . $char;
             }
         }
@@ -46,7 +43,7 @@ class PagesController extends Controller{
         ));
         $goutteClient->setClient($guzzleClient);
 
-        echo 'https://www.expatistan.com/cost-of-living/' . strtolower(strval($city));
+        // echo 'https://www.expatistan.com/cost-of-living/' . strtolower(strval($city));
         $crawler = $goutteClient->request('GET', 'https://www.expatistan.com/cost-of-living/' . strtolower(strval($city)));
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
@@ -56,15 +53,9 @@ class PagesController extends Controller{
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
             
-
             global $resultStr;
-            // // replace all non ascii chars like $
-            // $noDollarSigns = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $noCommas);
-            // echo $noDgollarSigns;
 
             $numStr = $this->extractNums($noCommas, $resultStr);
-            echo $numStr;
-            echo "<script>console.log($numStr)</script>";
 
             // add float version to array
             $prices[] = floatval($numStr);
