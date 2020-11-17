@@ -66,6 +66,7 @@ class PagesController extends Controller{
         });
 
         global $prices;
+        global $currency;
 
         $foodSum = $prices[1] + $prices[3] + $prices[4] + $prices[5] + $prices[6] + $prices[7] + $prices[8] + $prices[9];
         $housingSum = $prices[18] +  $prices[19] +  $prices[20] +  $prices[23];
