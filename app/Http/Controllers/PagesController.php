@@ -48,17 +48,10 @@ class PagesController extends Controller{
         $prices = array();
         $crawler->filter('.city-1')->each(function ($node) {
             global $prices;
-            global $currency;
             $nodeText = $node->text();
 
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
-
-            echo $noCommas;
-            echo '\n';
-
-            // get first character which would hopefully be the currency symbol
-            // $currency = $noCommas[1];
             
             global $resultStr;
 
@@ -71,13 +64,14 @@ class PagesController extends Controller{
         global $prices;
         global $currency;
 
+
         $foodSum = $prices[1] + $prices[3] + $prices[4] + $prices[5] + $prices[6] + $prices[7] + $prices[8] + $prices[9];
         $housingSum = $prices[18] +  $prices[19] +  $prices[20] +  $prices[23];
 		$spendSum =  $prices[43] +  $prices[47] +  $prices[51] +  $prices[25];
         $travelSum =  $prices[31];
         $otherSum =  $prices[33] +  $prices[36] +  $prices[37] +  $prices[38] +  $prices[39] +  $prices[40];
         
-		return view('page_4', ["foodSum"=>($currency . number_format($foodSum)), "housingSum"=>number_format($housingSum), "spendSum"=>number_format($spendSum), "travelSum"=>number_format($travelSum), "otherSum"=>number_format($otherSum)]);
+		return view('page_4', ["foodSum"=>number_format($foodSum), "housingSum"=>number_format($housingSum), "spendSum"=>number_format($spendSum), "travelSum"=>number_format($travelSum), "otherSum"=>number_format($otherSum)]);
 	}
 
 	public function sp()
