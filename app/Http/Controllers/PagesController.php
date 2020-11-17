@@ -58,7 +58,7 @@ class PagesController extends Controller{
             $numStr = $this->extractNums($noCommas, $resultStr);
 
             // add float version to array
-            $prices[] = number_format(floatval($numStr));
+            $prices[] = floatval($numStr);
         });
 
         global $prices;
@@ -69,7 +69,7 @@ class PagesController extends Controller{
         $travelSum =  $prices[31];
         $otherSum =  $prices[33] +  $prices[36] +  $prices[37] +  $prices[38] +  $prices[39] +  $prices[40];
         
-		return view('page_4', ["foodSum"=>$foodSum, "housingSum"=>$housingSum, "spendSum"=>$spendSum, "travelSum"=>$travelSum, "otherSum"=>$otherSum]);
+		return view('page_4', ["foodSum"=>number_format($foodSum), "housingSum"=>number_format($housingSum), "spendSum"=>number_format($spendSum), "travelSum"=>number_format($travelSum), "otherSum"=>number_format($otherSum)]);
 	}
 
 	public function sp()
