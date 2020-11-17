@@ -58,7 +58,7 @@ class PagesController extends Controller{
             $numStr = $this->extractNums($noCommas, $resultStr);
 
             // add float version to array
-            $prices[] = floatval($numStr);
+            $prices[] = number_format(floatval($numStr));
         });
 
         global $prices;
