@@ -54,6 +54,9 @@ class PagesController extends Controller{
             // replace all the commas 
             $noCommas = str_replace(",", "", $node->text()."\n");
 
+            echo $noCommas;
+            echo '\n';
+            
             // get first character which would hopefully be the currency symbol
             $currency = $noCommas[0];
             
