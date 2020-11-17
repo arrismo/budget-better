@@ -56,9 +56,9 @@ class PagesController extends Controller{
 
             echo $noCommas;
             echo '\n';
-            
+
             // get first character which would hopefully be the currency symbol
-            $currency = $noCommas[0];
+            $currency = $noCommas[1];
             
             global $resultStr;
 
