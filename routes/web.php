@@ -18,6 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/dashboard', function ()    {
+        return view('dashboard');
+    });
+
+
+});
+
 // Note to Arris: gfg is to test the connection to database can delete later
 Route::get('gfg', function () {
     return view('gfg');

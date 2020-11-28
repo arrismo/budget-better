@@ -82,139 +82,6 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </nav>
 
 
-
-
-<!-- <h1 style="margin-left: 58px; color: black; margin-top: 20px;" > My Dashboard 
-<a class="btn btn-lg"  style="display: inline-block; margin-left:1020px; color: #040502; background-color: #768130;
-{{-- border-color: #FFFFFF;"  href="{{ route('page_4') }}" role="button" >Edit</a> </h1> --> --}}
-
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container w3-row">
-    <div class="w3-col s8 w3-bar">
-      <span>Welcome, <strong>{{ Auth::user()->name }}</strong></span><br>
-    </div>
-  </div>
-  <hr>
-  <div class="w3-container">
-    <h5>Dashboard</h5>
-  </div>
-  <div class="w3-bar-block">
-    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="#overview" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Overview</a>
-    <a href="#info" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  My Info</a>
-    <a href="#general" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  General Stats</a>
-  </div>
-</nav>
-
-
-
-<!-- <div class="row" style="padding-left:60px; padding-right: 20px; text-align: center;">
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
-              	
-              </style>
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Food
-                      </div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$40</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fa fa-cutlery" aria-hidden="true"></i>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Rent</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$200</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Spending Money</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$200</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow h-100 py-2" style="border-left: .25rem solid #76802F !important;">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-lg font-weight-bold  text-uppercase mb-1" style="color:black;">Transportation</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$50</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-</div>
-
-
-<div class="row"  style="text-align: center;">
-    	<div class="col-sm-4" style="margin-left: 60px;">
-    		<div class="card shadow">
-            	<div class="card-header py-3" style="background-color: #76802F;">
-                  <h6 class="m-0 font-weight-bold" style="color:black;"></em>Resources</h6>
-                </div>
-                <div class="card-body">
-                  <p> </p>
-                </div>
-             </div>
-        </div>
-
-
-        <div class="col-sm-4" style="margin-left: 571px;">
-        	
-        </style>
-        	<div class="card shadow">
-                <div class="card-header py-3" style="background-color: #76802F;">
-                  <h6 class="m-0 font-weight-bold " style="color:black;">Your Info</h6>
-                </div>
-                <div class="card-body">
-                  <p> </p>
-        </div>
-	</div>
-</div>
-
-</div> -->
-
 <div class="w3-main" style="margin-left:300px;margin-top:3px;">
 
   <!-- Header -->
@@ -230,8 +97,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
         <div class="w3-right">
-
-          <h3 id="num"> </h3>
+@foreach($data as $value)
+          <h3>{{$data->food}} </h3>
 
         </div>
         <div class="w3-clear"></div>
@@ -242,7 +109,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>99</h3>
+          <h3>{{$data->rent}}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>Rent</h4>
@@ -252,7 +119,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>23</h3>
+          <h3>{{$data->spending}}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>Spending Money</h4>
@@ -262,13 +129,14 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-orange w3-text-white w3-padding-16">
         <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>50</h3>
+          <h3>{{$data->transportation}}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>Transportation</h4>
       </div>
     </div>
   </div>
+  @endforeach
 
   <div class="w3-panel">
     <div class="w3-row-padding" style="margin:0 -16px" id="info">
