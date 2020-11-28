@@ -28,9 +28,9 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::get('dashboard', function (){
     
-    $data = DB::table('user_budget')->get();
+    $budget = DB::table('user_budget')->get();
 
-    return view('dashboard', ['id' => $data]);
+    return view('dashboard', ['id' => $budget]);
 });
 
 
