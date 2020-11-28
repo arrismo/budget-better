@@ -26,6 +26,14 @@ Route::group(['middleware' => 'auth'], function () {
 
 });
 
+Route::get('dashboard', function (){
+    
+    $data = DB::table('user_budget')->get();
+
+    return view('dashboard', ['data' => $data]);
+});
+
+
 // Note to Arris: gfg is to test the connection to database can delete later
 Route::get('gfg', function () {
     return view('gfg');
