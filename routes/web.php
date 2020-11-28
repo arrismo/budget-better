@@ -30,7 +30,7 @@ Route::get('dashboard', function (){
     
     $data = DB::table('user_budget')->get();
 
-    return view('dashboard', ['data' => $data]);
+    return view('dashboard', ['id' => $data]);
 });
 
 
