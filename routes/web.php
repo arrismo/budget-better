@@ -64,6 +64,12 @@ Route::get('/dashboard', 'UserBudgetController@index');
 
 Route::get('/dashboard', 'UserBudgetController@store');
 
+Route::get('/dashboard', function (){
+    return view('dashboard',['budget'=> $budget]);
+
+});
+
+
 Route::get('/resources/views/dashboard', 'PagesController@db')->name('dashboard');
 
 
