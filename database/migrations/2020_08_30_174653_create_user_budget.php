@@ -20,6 +20,7 @@ class CreateUserBudget extends Migration
             $table->integer('spending');
             $table->integer('transportation');
             $table->integer('food');
+            $table->integer('other');
         });
     }
 

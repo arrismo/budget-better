@@ -65,49 +65,6 @@
 
 
 
-    <div class="card-deck text-center" style="padding-top: 20px; padding-left:20px; padding-right: 20px;">
-        <div class="card    shadow-lg p-3 mb-5 bg-black " style="border-radius: .60rem;">
-            <div class="card-header bg-transparent  " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange;">Your Budget</div>
-          <div class="card-body " style="height: 400px; ">
-            <ul class="list-group list-group-flush">
-              
-                <li class="list-group-item text-left">Food
-                  <input    style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
-                 
-                </li>
-
-                <li class="list-group-item text-left">Rent
-                  <input placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
-
-                </li>
-                <li class="list-group-item text-left">Spending Money
-<input  placeholder="$0.00" style="  
-                      background-color:#fff; 
-                      width:25%; background-clip:padding-box; 
-                      border: 1px solid black; 
-                      border-radius: .60rem;
-                      margin-left: 40px;
-                      
-                      "    
-                      
-                      
-                      class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
-                </li>
-                <li class="list-group-item text-left">Transportation
-                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
-
-                </li>
-                <li class="list-group-item text-left">Other
-                  <input   placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
-
-                </li>
-              </ul>
-          </div>
-
-
-        </div>
-
-
         <div class="card shadow-lg p-3 mb-5 bg-white " style="border-radius: .60rem;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange;">Our Suggestion</div>
           <div class="card-body">
@@ -152,25 +109,26 @@
 
 
 
+{{-- Your changes section --}}
+
+<form action="{{action('UserBudgetController@store')}}" method="post">
 
         <div class="card shadow-lg p-3 mb-5 bg-white " style="border-radius: .60rem;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange; ">Your Changes</div>
           <div class="card-body ">
             <ul class="list-group list-group-flush">
-           
-                  
                 <li class="list-group-item text-left" >Food  
-                    <input type="number" min="0.00" max="10000.00" step="0.01" id="selectNum" placeholder="$0.00"  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
+                    <input id="food" type="number" name= "food"  min="0.00" max="10000.00" step="0.01"  placeholder="$0.00"  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
                 </li>
 
 
                 <li class="list-group-item text-left" >Rent
-                    <input type="number"  min="0.00" max="10000.00" step="0.01" placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
+                    <input id="rent" type="number" name= "rent" min="0.00" max="10000.00" step="0.01" placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
 
                 <li class="list-group-item text-left">Spending Money
-                    <input type="number"  min="0.00" max="10000.00" step="0.01" placeholder="$0.00" style="  
+                    <input id="spending" name= "spending" type="number"  min="0.00" max="10000.00" step="0.01" placeholder="$0.00" style="  
                       background-color:#fff; 
                       width:25%; background-clip:padding-box; 
                       border: 1px solid black; 
@@ -184,11 +142,11 @@
                 </li>
 
                 <li class="list-group-item text-left">Transportation
-                    <input type="number" min="0.00" max="10000.00" step="0.01"  placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
+                    <input id="transportation" name= "transportation" type="number" min="0.00" max="10000.00" step="0.01"  placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
                 <li class="list-group-item text-left">Other
-                    <input type="number" min="0.00" max="10000.00" step="0.01"  placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
+                    <input id="other" name= "other" type="number" min="0.00" max="10000.00" step="0.01"  placeholder="$0.00" style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;      "    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm">  
 
                 </li>
               </ul>
@@ -197,9 +155,11 @@
         </div>
       </div>
 
+</form>
+
 
        <a class="btn btn-lg" style="float: left; color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;" href="{{ route('page_3') }}" role="button" >Go Back</a>
-       <a class="btn btn-lg" onclick="passvalues()" style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;" href="{{ route('dashboard')}}" role="button" >Continue</a>
+       <a class="btn btn-lg"  style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;" href="{{ route('dashboard')}}" role="button" >Continue</a>
 
 
 
