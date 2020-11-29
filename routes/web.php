@@ -44,9 +44,9 @@ Route::get('gfg', function () {
     return view('gfg');
 });
 
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 
 
 
