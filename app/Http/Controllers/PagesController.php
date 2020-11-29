@@ -84,9 +84,9 @@ class PagesController extends Controller{
 		return view('signup');
 	}
 
-	public function db(){
-		return view('dashboard');
-	}
+	// public function db(){
+	// 	return view('dashboard');
+	// }
 
 	public function about(){
 		return view('aboutus');
