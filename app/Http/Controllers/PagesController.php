@@ -10,11 +10,11 @@ use GuzzleHttp\Client as GuzzleClient;
 
 class PagesController extends Controller{
 
-	// public function p3(Request $request)	{
-    //     $city = $request->input('city');
-    //     // echo $city;
-	// 	return view('page_3', ["city"=>$city]);
-    // }
+	public function p3(Request $request)	{
+        $city = $request->input('city');
+        // echo $city;
+		return view('page_3', ["city"=>$city]);
+    }
     
     // public function extractNums($priceStr, $resultStr){
     //     // priceStr ex: €14 
