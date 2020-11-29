@@ -58,7 +58,7 @@ Route::get('/resources/views/welcome', 'PagesController@welcome')->name('welcome
 
 Route::get('/resources/views/aboutus', 'PagesController@about')->name('aboutus');
 
-Route::get('/dashboard', 'UserBudgetController@store')->name('dashboard');
+Route::get('dashboard', 'UserBudgetController@store')->name('dashboard');
 
 Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 

@@ -14,7 +14,7 @@ class UserBudgetController extends Controller
 
     public function store(Request $request){
        $budget = Budget::create($request->all());
-       return redirect()->route('resources/views/dashboard');
+       return redirect()->route('dashboard');
     }
 
 
