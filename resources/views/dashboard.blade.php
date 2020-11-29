@@ -97,8 +97,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
         <div class="w3-right">
-@foreach($budget as $key => $data
-          <h3>{{$data->food}} </h3>
+{{-- @foreach($budget as $key => $data --}}
+          // <h3>{{$data->food}} </h3>
 
         </div>
         <div class="w3-clear"></div>
@@ -109,7 +109,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{$data->rent}}</h3>
+          // <h3>{{$data->rent}}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>Rent</h4>
@@ -119,7 +119,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{$data->spending}}</h3>
+          // <h3>{{$data->spending}}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>Spending Money</h4>
@@ -129,14 +129,14 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-orange w3-text-white w3-padding-16">
         <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{$data->transportation}}</h3>
+          // <h3>{{$data->transportation}}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>Transportation</h4>
       </div>
     </div>
   </div>
-  @endforeach
+  // @endforeach
 
   <div class="w3-panel">
     <div class="w3-row-padding" style="margin:0 -16px" id="info">
