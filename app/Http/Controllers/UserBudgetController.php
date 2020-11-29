@@ -14,8 +14,8 @@ class UserBudgetController extends Controller
 {
 
     public function index(){
-        $budgets = DB::select('select * from user_budget');
-        return view('dashboard', compact('budgets'));
+        $budget = DB::select('select * from user_budget');
+        return view('dashboard',['budget'=> $budget]);
 
     }
 

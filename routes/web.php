@@ -60,6 +60,10 @@ Route::get('/resources/views/aboutus', 'PagesController@about')->name('aboutus')
 
 Route::get('dashboard', 'UserBudgetController@store')->name('dashboard');
 
+Route::get('/dashboard', 'UserBudgetController@index');
+
+
+
 Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 
 Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
