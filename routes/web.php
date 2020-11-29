@@ -28,6 +28,8 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 
+
+
 // Route::get('dashboard', function (){
     
 //     $budget = DB::table('user_budget')->get();
@@ -46,6 +48,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+
+
 Route::get('/signup', function () {
     return view('signup');
 });
@@ -54,7 +58,7 @@ Route::get('/resources/views/welcome', 'PagesController@welcome')->name('welcome
 
 Route::get('/resources/views/aboutus', 'PagesController@about')->name('aboutus');
 
-Route::get('/resources/views/dashboard', 'PagesController@db')->name('dashboard');
+Route::get('/dashboard', 'UserBudgetController@store')->name('dashboard');
 
 Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 
