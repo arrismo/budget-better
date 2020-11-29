@@ -26,12 +26,13 @@ Route::group(['middleware' => 'auth'], function () {
 
 });
 
-// Route::get('dashboard', function (){
+Route::get('dashboard', function (){
     
-//     $budget = DB::table('user_budget')->get();
+    $budget = DB::table('user_budget')->get();
+    echo $data->id;
 
-//     return view('dashboard', ['id' => $budget]);
-// });
+    return view('dashboard', ['id' => $budget]);
+});
 
 
 // Note to Arris: gfg is to test the connection to database can delete later
