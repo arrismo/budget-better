@@ -44,9 +44,9 @@ Route::get('gfg', function () {
     return view('gfg');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// });
 
 
 
@@ -64,6 +64,7 @@ Route::get('/dashboard', 'UserBudgetController@index');
 
 Route::get('/dashboard', 'UserBudgetController@store');
 
+Route::get('/resources/views/dashboard', 'PagesController@db')->name('dashboard');
 
 
 Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
