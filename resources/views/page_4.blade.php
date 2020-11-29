@@ -159,7 +159,7 @@
 
 
        <a class="btn btn-lg" style="float: left; color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;" href="{{ route('page_3') }}" role="button" >Go Back</a>
-       <a class="btn btn-lg"  style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;"  role="button" >Continue</a>
+       <a class="btn btn-lg"  style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;" href="{{ route('dashboard') }}" role="button" >Continue</a>
 
 
 
