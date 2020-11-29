@@ -136,7 +136,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
-  // @endforeach
+  
 
   <div class="w3-panel">
     <div class="w3-row-padding" style="margin:0 -16px" id="info">
