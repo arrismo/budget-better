@@ -21,8 +21,8 @@ class UserBudgetController extends Controller
 
 
     public function store(Request $request){
-       $budget = Budget::create($request->all());
-       return view('dashboard', ['data' => $budget]);
+       //$budget = Budget::create($request->all());
+       return view('dashboard', ['data' => [1,2,3,4]]);
     }
 
 
