@@ -58,11 +58,11 @@ Route::get('/resources/views/welcome', 'PagesController@welcome')->name('welcome
 
 Route::get('/resources/views/aboutus', 'PagesController@about')->name('aboutus');
 
-Route::get('dashboard', 'UserBudgetController@store')->name('dashboard');
+Route::get('/dashboard', 'UserBudgetController@store')->name('dashboard');
 
-Route::get('/dashboard', 'UserBudgetController@index');
+Route::get('/dashboard1', 'UserBudgetController@index')->name('dashboard1');
 
-Route::get('/dashboard', 'UserBudgetController@store');
+//Route::get('/dashboard', 'UserBudgetController@store');
 
 Route::get('/dashboard', function (){
     return view('dashboard',['budget'=> $budget]);
