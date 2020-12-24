@@ -97,7 +97,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
         <div class="w3-right">
-@foreach($budget as $value)
+          {{ json_encode($test) }}
+@foreach($test as $value)
 
            <h3>{{$value->food}} </h3>
 

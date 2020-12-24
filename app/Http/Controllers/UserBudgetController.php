@@ -22,7 +22,7 @@ class UserBudgetController extends Controller
 
     public function store(Request $request){
        $budget = Budget::create($request->all());
-       return view('dashboard', ['budget' => $budget]);
+       return view('dashboard', ['budget' => $budget, 'test' => [1,2,3,4]]);
     }
 
 
