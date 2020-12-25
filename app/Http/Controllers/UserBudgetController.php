@@ -7,7 +7,7 @@ use App\Budget;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 
 
 class UserBudgetController extends Controller
