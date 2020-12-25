@@ -7,11 +7,20 @@ use App\Budget;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
-
+use Illuminate\Support\Facades\Auth;
 
 
 class UserBudgetController extends Controller
 {
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     public function index(){
         $budget = DB::select('select * from user_budget');
@@ -21,8 +30,10 @@ class UserBudgetController extends Controller
 
 
     public function store(Request $request){
-       $budget = Budget::create($request->all());
-       return view('dashboard');
+        $userId = Auth::user()->id;
+        Budget::updateOrCreate(['user_id' => $userId], $request->all());
+        $budget = Budget::where('user_id', $userId)->first();
+        return view('dashboard', ['budget' => $budget]);
     }
 
 

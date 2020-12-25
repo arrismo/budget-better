@@ -111,8 +111,8 @@
 
 {{-- Your changes section --}}
 
-<form action="{{action('UserBudgetController@store')}}" method="post">
-
+<form action="{{ route('dashboard') }}" method="post">
+        @csrf
         <div class="card shadow-lg p-3 mb-5 bg-white " style="border-radius: .60rem;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange; ">Your Changes</div>
           <div class="card-body ">
@@ -155,11 +155,11 @@
         </div>
       </div>
 
+      <a class="btn btn-lg" style="float: left; color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;" href="{{ route('page_3') }}" role="button" >Go Back</a>
+       <input class="btn btn-lg"  style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;" type="submit" value="Continue" />
+
 </form>
 
-
-       <a class="btn btn-lg" style="float: left; color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;" href="{{ route('page_3') }}" role="button" >Go Back</a>
-       <a class="btn btn-lg"  style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;"  href="{{ route('dashboard') }}" role="button" >Continue</a>
 
 
 

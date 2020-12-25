@@ -9,6 +9,7 @@ class Budget extends Model
     protected $table = 'user_budget';
     
     protected $fillable = 
-    ['rent','spending','transportation','food','other'];
+    ['rent','spending','transportation','food','other','user_id'];
     
 }
+
