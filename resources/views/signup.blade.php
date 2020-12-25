@@ -204,7 +204,7 @@
         <div class="banner">
           <h1>Sign-Up</h1>
         </div>
-      <br><br>
+        <br><br>
         <p>What experience are you budgeting for?</p>
         <select style="width:200px;" name="experience" id="experience" required>
           <option value="">Select Experience</option>
@@ -482,7 +482,7 @@
         
         <p>How long will your experience be?</p>
         <div>
-        <select name="state" class="states" id="stateId">
+        <select name="experience" class="exp" id="expId">
             <option value="">Input Number</option>
             <option value="1">1</option>
             <option value="2">2</option>
