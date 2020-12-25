@@ -112,7 +112,7 @@
 {{-- Your changes section --}}
 
 <form action="{{ route('dashboard') }}" method="post">
-
+        @csrf
         <div class="card shadow-lg p-3 mb-5 bg-white " style="border-radius: .60rem;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange; ">Your Changes</div>
           <div class="card-body ">
