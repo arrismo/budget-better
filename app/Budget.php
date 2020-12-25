@@ -12,3 +12,4 @@ class Budget extends Model
     ['rent','spending','transportation','food','other','user_id'];
     
 }
+
