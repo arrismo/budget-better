@@ -30,8 +30,7 @@ class UserBudgetController extends Controller
 
 
     public function store(Request $request){
-        dd(Auth::user());
-        $userId = Auth::id();
+        $userId = Auth::user()->id;
         Budget::updateOrCreate(['user_id' => $userId], $request->all());
         $budget = Budget::where('user_id', $userId)->first();
         return view('dashboard', ['budget' => $budget]);
