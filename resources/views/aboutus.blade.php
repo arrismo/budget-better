@@ -34,7 +34,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             
+
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto" >
@@ -43,14 +43,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                   </li>
 
 
-                  <li class="nav-item"> 
+                  <li class="nav-item">
                       <a class="nav-link" href="{{ route('welcome')}}#slide04" style="color:white;"> Contact us   </a>
                   </li>
-               
-                    
-
-
-                      
 
                 </ul>
             </div>
@@ -59,7 +54,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   </div>
 
   <!-- Navbar on small screens -->
-  
+
 
 
 <!-- Header -->
@@ -69,15 +64,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </header>
 
 <!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-padding-64 w3-container" style="text-align: center;padding-left: 350px;">
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>FIRST-HAND EXPERIENCE</h1>
       <h5 class="w3-padding-32"> When our founder, Daniela, went abroad during her junior year of college, she was excited. She had some money in her bank account and a whole new world out there for her to explore. However, soon, reality strook. Since she had received a chunk of money as a one-time stipend, before she knew it, she had not kept track of her funds and was running low. At the time, she wished she had some sort of structure to keep her accountable on her spending habits. That is when she had the idea to start Budget Better! </h5>
-      
+
 	<h5 class="w3-padding-20">
 Generally, college students run out of stipend and grant money because it is just sitting in their bank account. What students do next is just compulsively buy! For example, a meal plan from an upscale college like Wellesley is $8,272. The average American College students makes $757. From both spectrums the most frugal to the least frugal will spend from $163- $367 (US Dept. Agric. Food Plans)
-Despite barely making any money and still paying for a dining plan, students still eat out. 
+Despite barely making any money and still paying for a dining plan, students still eat out.
 College students don’t know how to budget well!
 </h5>
 
@@ -86,7 +81,7 @@ College students don’t know how to budget well!
 	<h5 class="w3-padding-1">
 We are offering our customers the ability to budget your grants or stipends on the student side. Concurrently, we are offering universities an accountability medium where they see how the students are allocating grants. Are they really being used as how they proposed and intended for?
 
- 
+
 </h5>
     </div>
 
@@ -97,7 +92,7 @@ We are offering our customers the ability to budget your grants or stipends on t
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding  w3-padding-64 w3-container">
+<div class="w3-row-padding  w3-padding-64 w3-container" style="text-align: center;padding-left: 350px;">
   <div class="w3-content">
 
     {{-- <div class="w3-third w3-center">
@@ -124,7 +119,7 @@ function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-  } else { 
+  } else {
     x.className = x.className.replace(" w3-show", "");
   }
 }
