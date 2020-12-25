@@ -62,7 +62,7 @@ Route::any('/resources/views/dashboard', 'UserBudgetController@store')->name('da
 
 Route::get('/dashboard1', 'UserBudgetController@index')->name('dashboard1');
 
-//Route::get('/dashboard', 'UserBudgetController@store');
+Route::get('/dashboard', 'UserBudgetController@store');
 
 // Route::get('/dashboard', function (){
 //     return view('dashboard',['budget'=> $budget]);
