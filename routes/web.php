@@ -58,7 +58,7 @@ Route::get('/resources/views/welcome', 'PagesController@welcome')->name('welcome
 
 Route::get('/resources/views/aboutus', 'PagesController@about')->name('aboutus');
 
-Route::get('/resources/views/dashboard', 'UserBudgetController@store')->name('dashboard');
+Route::any('/resources/views/dashboard', 'UserBudgetController@store')->name('dashboard');
 
 Route::get('/dashboard1', 'UserBudgetController@index')->name('dashboard1');
 
