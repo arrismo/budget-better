@@ -80,7 +80,7 @@
                                     </li>
 
                                     <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
-                                    <li data-menuanchor="slide03"><a href="{{ route('aboutus')}}"><strong>About Us</strong></a></li> -->
+                                    <li data-menuanchor="slide03"><a href="{{ route('aboutus')}}"><strong>About Us</strong></a></li>
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
                                     <li data-menuanchor="slide03"><a href="#slide03"><strong>Contact Us</strong></a></li>
 
