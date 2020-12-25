@@ -7,7 +7,7 @@ use App\Budget;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
-
+use Auth;
 
 
 class UserBudgetController extends Controller
@@ -21,8 +21,10 @@ class UserBudgetController extends Controller
 
 
     public function store(Request $request){
-       $budget = Budget::create($request->all());
-       return view('dashboard', ['budget' => $budget]);
+        $userId = Auth::id();
+        Budget::updateOrCreate(['user_id' => $userId], $request->all());
+        $budget = Budget::where('user_id', $userId)->first();
+        return view('dashboard', ['budget' => $budget]);
     }
 
 
