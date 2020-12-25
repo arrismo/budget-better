@@ -12,6 +12,15 @@ use Illuminate\Support\Facades\Auth;
 
 class UserBudgetController extends Controller
 {
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     public function index(){
         $budget = DB::select('select * from user_budget');
