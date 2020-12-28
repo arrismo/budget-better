@@ -18,9 +18,9 @@
             <link rel="stylesheet" href="{{asset('css/fullpage.min.css')}}">
             <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
         <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-        
+
         <link rel="stylesheet" href="{{asset('css/templatemo-style.css')}}">
-      
+
         <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
     </head>
     <body>
@@ -33,11 +33,11 @@
         <script src="{{asset('js/jquery.inview.min.js')}}" type="text/javascript" ></script>
         <script src="{{asset('js/form.js')}}" type="text/javascript" ></script>
         <script src="{{asset('js/custom.js')}}" type="text/javascript" ></script>
-        
-        
-        
 
-        
+
+
+
+
 
 
         <div id="video">
@@ -53,7 +53,7 @@
             <div class="container-fluid">
                 <div class="navbar">
                     <a href="#" id="logo" >
-                        Budget Better  
+                        Budget Better
 
                     </a>
                     <div class="navigation-row">
@@ -62,28 +62,28 @@
                             <div class="nav-box navbar-collapse">
                                 <ul class="navigation-menu nav navbar-nav navbars" id="nav">
                                     <li data-menuanchor="slide01" class="active"><a href="#slide01"><strong>Home</strong></a></li>
-        
+
                                    <li>
                                     @if (Auth::guest())
                                     <a href="{{ route('login')}}"><strong>Login </strong></a>
-                                    @else 
-                                    <a href="{{ route('dashboard')}}"><strong> My Dashboard </strong></a> 
+                                    @else
+                                    <a href="{{ route('dashboard')}}"><strong> My Dashboard </strong></a>
 
                                     @endif
 
                                    </li>
-                            
-                                    <li> 
+
+                                    <li>
                                         @if (Auth::guest())
                                         <a href="{{ route('register')}}"><strong>Sign Up </strong></a>
                                         @endif
-                                    </li> 
+                                    </li>
 
                                     <li data-menuanchor="slide02"><a href="#slide02"><strong>Services</strong></a></li>
-                                    <!-- <li data-menuanchor="slide03"><a href="#slide03"><strong>Our Team</strong></a></li> -->
+                                    <li data-menuanchor="slide03"><a href="{{ route('aboutus')}}"><strong>About Us</strong></a></li>
                                   <!--  <li data-menuanchor="slide04"><a href="#slide04"><strong>Testimonials</strong></a></li> -->
                                     <li data-menuanchor="slide03"><a href="#slide03"><strong>Contact Us</strong></a></li>
-                               
+
 
 
 
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </header>
- 
+
         <video autoplay muted loop id="myVideo">
           <source src="images/video.mp4" type="video/mp4">
         </video>
@@ -112,8 +112,8 @@
                     </div>
                 </div>
             </div>
-    
-          
+
+
             <div class="section animated-row" data-section="slide02">
                 <div class="section-inner">
                     <div class="row justify-content-center">
@@ -137,7 +137,7 @@
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
                                             <h3>All your finances in one place</h3>
-                                            <p> Whether you are studying abroad, interning in a new city, or hold a work study job at school 
+                                            <p> Whether you are studying abroad, interning in a new city, or hold a work study job at school
                                                 Budget Better will follow you.</p>
                                         </div>
                                     </div>
@@ -145,7 +145,7 @@
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
                                             <h3>Never go broke again</h3>
-                                            <p> Budget Better works for your best financial interest. Our application 
+                                            <p> Budget Better works for your best financial interest. Our application
                                                 ensures you are aware of how your weekly income will be budgeted.</p>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
                                             <h3>Mobile Coming Soon</h3>
-                                            <p> As an apprecitation of your support we are announcing the launch of our mobile app. We hope to 
+                                            <p> As an apprecitation of your support we are announcing the launch of our mobile app. We hope to
                                                 see you Spring of 2021 at the Draper Competition located at Smith College. </p>
                                         </div>
                                     </div>
@@ -175,7 +175,7 @@
                                     </div>
 
 
-                                    
+
 
                                 </div>
                             </div>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
             </div>
-          
+
 
 <!--This is the teams section that will uncommented until further notice-->
             <!-- <div class="section animated-row" data-section="slide03">
@@ -217,7 +217,7 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4 style="text-align:center;">Mayeline Peña </h4>
-                                                <p style="text-align:center;"><span style="color: #fd7e14">School: </span> Smith College 
+                                                <p style="text-align:center;"><span style="color: #fd7e14">School: </span> Smith College
                                                     <br> <span style="color: #fd7e14"> Double Major: </span> Computer Science and Dance
                                                     <br> <span style="color: #fd7e14"> Hobbies: </span> In my free time I like to dance, bake, and watch TV
                                                     <br> <span style="color: #fd7e14"> Role:</span> Product Manager</p>
@@ -232,8 +232,8 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4 style="text-align:center;" >Arris Moise</h4>
-                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College 
-                                                    <br> <span style="color: #fd7e14"> Major: </span>Computer Science 
+                                                <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
+                                                    <br> <span style="color: #fd7e14"> Major: </span>Computer Science
                                                     <br> <span style="color: #fd7e14"> Hobbies: </span> I like to collect Funko Pops and playing video games.
                                                     <br> <span style="color: #fd7e14"> Role: </span> Developer</p>
                                             </div>
@@ -247,7 +247,7 @@
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4 style="text-align:center;">Neamat Sabry</h4>
                                                 <p style="text-align:center;"> <span style="color: #fd7e14"> School: </span> Smith College
-                                                    <br> <span style="color: #fd7e14"> Major: </span> Computer Science 
+                                                    <br> <span style="color: #fd7e14"> Major: </span> Computer Science
                                                     <br> <span style="color: #fd7e14"> Hobbies: </span> I like playing on pianos & drawing people.
                                                     <br> <span style="color: #fd7e14"> Role: </span> Developer
                                                 </p>
@@ -301,7 +301,7 @@
                                                     <h4> Student X</h4>
                                                     <p>"Ut varius leo eu mauris lacinia, eleifend posuere urna gravida. Aenean a mattis lacus."</p>
                                                     <span>Traveled To Morroco</span>
-                                                </div>                                           
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="item animate" data-animate="fadeInUp">
@@ -313,7 +313,7 @@
                                                     <h4>Student X</h4>
                                                     <p>"Nam iaculis, leo nec facilisis sollicitudin, dui massa tempus odio, vitae malesuada ante elit vitae eros."</p>
                                                     <span>Traveled to Spain </span>
-                                                </div>                                           
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="item animate" data-animate="fadeInUp">
@@ -325,7 +325,7 @@
                                                     <h4>Student X</h4>
                                                     <p>"Etiam efficitur, tortor facilisis finibus semper, diam magna fringilla lectus, et fringilla felis urna posuere tortor."</p>
                                                     <span>Traveled to Germany</span>
-                                                </div>                                           
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -386,7 +386,7 @@
 
     <!-- Footer Elements -->
     <div class="container">
-  
+
       <!-- Call to action -->
       <ul class="list-unstyled list-inline text-center py-2">
         <li class="list-inline-item">
@@ -397,21 +397,21 @@
         </li>
       </ul>
       <!-- Call to action -->
-  
+
     </div>
     <!-- Footer Elements -->
-  
+
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       BudgetBetter
     </div>
     <!-- Copyright -->
-  
+
   </footer>
   <!-- Footer -->
             </div>
             <!-- end of contact us slide-->
- 
+
 
 
 
@@ -425,7 +425,7 @@
 
         </div>
 
-        <div id="social-icons">
+        <!-- <div id="social-icons">
             <div class="text-right">
                 <ul class="social-icons">
                     <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -433,8 +433,8 @@
                     <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
-        </div>
-    </div>  
+        </div> -->
+    </div>
     <script type="text/javascript">
         $.ajaxSetup({
             headers: {
