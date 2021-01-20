@@ -496,7 +496,7 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-        </select>  -->
+        </select>  
           <select style="width:200px;" name="time" id="time" required>
             <option value="">Select Duration</option>
             <option value="1">Days</option>
@@ -504,7 +504,7 @@
             <option value="3">Months</option>
             <option value="4">Years</option>
           </select>
-        </div>
+        </div> -->
         <br>
         <div>
           <p>Your program start date</p>
