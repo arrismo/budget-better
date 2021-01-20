@@ -480,9 +480,9 @@
         <br>
         <br>
         
-        <p>How long will your experience be?</p>
+        <!-- <p>How long will your experience be?</p>
         <div>
-        <!-- <select name="experience" class="exp" id="expId">
+         <select name="experience" class="exp" id="expId">
             <option value="">Input Number</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -496,7 +496,7 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-        </select> -->
+        </select>  -->
           <select style="width:200px;" name="time" id="time" required>
             <option value="">Select Duration</option>
             <option value="1">Days</option>
