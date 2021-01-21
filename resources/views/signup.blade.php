@@ -223,9 +223,11 @@
         <select name="state" class="states" id="stateId">
             <option value="">Select State</option>
         </select>
-        <select name="city" class="cities" id="cityId">
+        <select name="city" class="cities" id="city">
             <option value="">Select City</option>
         </select>
+
+
           <!-- <select name="location" id="location" required>
             <option value="">Select Country</option>
             <option value="Afganistan">Afghanistan</option>
