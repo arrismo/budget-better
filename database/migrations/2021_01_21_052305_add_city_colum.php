@@ -14,7 +14,7 @@ class AddCityColum extends Migration
     public function up()
     {
         Schema::table('user_budget', function (Blueprint $table) {
-            $table->string('city');
+            $table->string('cityId');
         });
     }
 

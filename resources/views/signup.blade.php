@@ -223,7 +223,7 @@
         <select name="state" class="states" id="stateId">
             <option value="">Select State</option>
         </select>
-        <select name="city" class="cities" id="city">
+        <select name="city" class="cities" id="cityId">
             <option value="">Select City</option>
         </select>
 
