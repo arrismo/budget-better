@@ -168,7 +168,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
-  <hr>
+  <!-- <hr>
   <div class="w3-container" id="general">
     <h5>General Stats</h5>
     <p>Food</p>
@@ -186,7 +186,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-center w3-padding w3-red" style="width:5%">15%</div>
     </div>
   </div>
-  <hr>
+  <hr> -->
 
   <div class="w3-container">
     <h5>Resources</h5>
