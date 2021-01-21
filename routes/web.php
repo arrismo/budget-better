@@ -22,19 +22,11 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/login', function ()    {
         return view('login');
     });
-
-
 });
-
-
 
 Route::get('gfg', function () {
     return view('gfg');
 });
-
-
-
-
 
 Route::get('/signup', function () {
     return view('signup');
@@ -50,15 +42,6 @@ Route::get('/dashboard1', 'UserBudgetController@index')->name('dashboard1');
 
 Route::get('/dashboard', 'UserBudgetController@store');
 
-// Route::get('/dashboard', function (){
-//     return view('dashboard',['budget'=> $budget]);
-
-// });
-
-
-//Route::get('/resources/views/dashboard', 'PagesController@db')->name('dashboard');
-
-
 Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 
 Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
@@ -66,7 +49,5 @@ Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
 Route::get('/resources/views/page_4/{city}', 'PagesController@p4')->name('page_4');
 
 Auth::routes();
-
-//Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/sendhtmlemail', 'MailController@html_email');
