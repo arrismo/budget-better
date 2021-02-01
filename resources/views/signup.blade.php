@@ -65,6 +65,7 @@
       font-size: 14px;
       color: #666;
       line-height: 22px;
+      text-align:center;
       }
       h1 {
       position: absolute;
