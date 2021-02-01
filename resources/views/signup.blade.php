@@ -140,7 +140,7 @@
       }
       button {
       width: 150px;
-      padding: 10px;
+      padding-bottom: 30px;
       border: none;
       border-radius: 5px; 
       background: #818b34;
