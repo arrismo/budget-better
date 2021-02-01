@@ -85,6 +85,7 @@
       form {
       width: 38%;
       padding: 20px;
+      padding-bottom:30px;
       border-radius: 6px;
       background: #fff;
       box-shadow: 0 0 10px 0 #774a03; 
@@ -140,7 +141,7 @@
       }
       button {
       width: 150px;
-      padding-bottom: 30px;
+      padding: 10px;
       border: none;
       border-radius: 5px; 
       background: #818b34;
