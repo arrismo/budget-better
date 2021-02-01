@@ -220,7 +220,7 @@
         <br><br>
 
 
-        <div style="width:200px;" data-validate = "Location">
+        <div  data-validate = "Location">
         <p>What location will you be in?</p>
         <select name="country" class="countries" id="countryId">
             <option value="">Select Country</option>
