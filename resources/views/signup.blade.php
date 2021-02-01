@@ -76,7 +76,7 @@
       .testbox {
       display: flex;
       justify-content: center;
-      align-items: center;
+      text-align:center;
       height: inherit;
       padding: 40px;
       
@@ -109,6 +109,7 @@
       margin-bottom: 10px;
       border: 1px solid #ccc;
       border-radius: 3px;
+      text-align:center;
       }
       input {
       width: calc(100% - 10px);
