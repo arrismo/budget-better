@@ -225,9 +225,11 @@
         <select name="country" class="countries" id="countryId">
             <option value="">Select Country</option>
         </select>
+        <br>
         <select name="state" class="states" id="stateId">
             <option value="">Select State</option>
         </select>
+        <br>
         <select name="city" class="cities" id="cityId">
             <option value="">Select City</option>
         </select>
@@ -482,8 +484,6 @@
           </select>
           
         </div> -->
-        <br>
-        <br>
         
         <!-- <p>How long will your experience be?</p>
         <div>
