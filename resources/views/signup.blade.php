@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
+ <!-- Stylesheets -->
+ <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
+        <link rel="stylesheet" href="{{asset('fonts/iconic/css/material-design-iconic-font.min.css')}}">
+        <link rel="stylesheet" href="{{asset('vendor/animate/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('vendor/css-hamburgers/hamburgers.min.css')}}">
+        <link rel="stylesheet" href="{{asset('vendor/animsition/css/animsition.min.css')}}">
+        <link rel="stylesheet" href="{{asset('vendor/select2/select2.min.css')}}">
+        <link rel="stylesheet" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
+        <link rel="stylesheet" href="{{asset('css/util.css')}}">
+        <link rel="stylesheet" href="{{asset('css/main.css')}}">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -48,7 +59,7 @@
     <title>Sign-Up</title>
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
-    <style>
+    <!-- <style>
       body {
         /* background: #f12711; 
         background: -webkit-linear-gradient(to right,#f5af19,#f12711); 
@@ -195,7 +206,7 @@
         border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
         border-image: initial;
       }
-    </style>
+    </style> -->
 
   <body>
     <div class="testbox">
