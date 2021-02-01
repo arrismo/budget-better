@@ -65,6 +65,8 @@
       font-size: 14px;
       color: #666;
       line-height: 22px;
+      display: flex;
+      justify-content: center;
       text-align:center;
       }
       h1 {
