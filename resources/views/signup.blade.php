@@ -79,7 +79,7 @@
       justify-content: center;
       text-align:center;
       height: inherit;
-      padding: 40px;
+      padding: 50px;
       
       }
       form {
@@ -92,7 +92,7 @@
       }
       .banner {
       position: relative;
-      padding-top: 15px;
+      padding-top: 20px;
       height: 30px;
       background-image: url("/uploads/media/default/0001/01/f1cf9a9068f4bfbdbd9758c45db79203579a3561.jpeg");      background-size: cover;
       display: flex;
