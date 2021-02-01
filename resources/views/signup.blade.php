@@ -79,7 +79,7 @@
       align-items: center;
       height: inherit;
       padding: 60px;
-      background: linear-gradient(to bottom, #F9D423, #e65c00);
+      
       }
       form {
       width: 100%;
@@ -87,16 +87,17 @@
       border-radius: 6px;
       background: #fff;
       box-shadow: 0 0 10px 0 #774a03; 
+      background: linear-gradient(to bottom, #F9D423, #e65c00);
       }
       .banner {
       position: relative;
-      height: 210px;
+      height: 110px;
       background-image: url("/uploads/media/default/0001/01/f1cf9a9068f4bfbdbd9758c45db79203579a3561.jpeg");      background-size: cover;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      background: linear-gradient(to bottom, #F9D423, #e65c00);
+    
       }
       .banner::after {
       content: "";
