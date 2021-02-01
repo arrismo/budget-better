@@ -1,7 +1,6 @@
-@extends('layouts.app')
-
 <!DOCTYPE html>
 <html>
+<head>
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
  <!-- Stylesheets -->
  <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
@@ -15,7 +14,7 @@
         <link rel="stylesheet" href="{{asset('css/util.css')}}">
         <link rel="stylesheet" href="{{asset('css/main.css')}}">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
@@ -30,7 +29,8 @@
 
 <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
 
-<link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" > -->
+<head>
 
 <nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
         <div class="container">
