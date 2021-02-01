@@ -79,7 +79,7 @@
       justify-content: center;
       text-align:center;
       height: inherit;
-      padding: 50px;
+      padding: 60px;
       
       }
       form {
