@@ -79,6 +79,7 @@
       align-items: center;
       height: inherit;
       padding: 60px;
+      background: linear-gradient(to bottom, #F9D423, #e65c00);
       }
       form {
       width: 100%;
