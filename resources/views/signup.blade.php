@@ -65,9 +65,7 @@
       font-size: 14px;
       color: #666;
       line-height: 22px;
-      display: flex;
-      justify-content: center;
-      text-align:center;
+      
       }
       h1 {
       position: absolute;
@@ -121,6 +119,7 @@
       textarea {
       width: calc(100% - 12px);
       padding: 5px;
+      text-align:center;
       }
       .item:hover p, input:hover::placeholder {
       color: #774a03;
