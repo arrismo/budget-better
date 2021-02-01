@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
- <!-- Stylesheets -->
- <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
-        <link rel="stylesheet" href="{{asset('fonts/iconic/css/material-design-iconic-font.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/animate/animate.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/css-hamburgers/hamburgers.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/animsition/css/animsition.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/select2/select2.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
-        <link rel="stylesheet" href="{{asset('css/util.css')}}">
-        <link rel="stylesheet" href="{{asset('css/main.css')}}">
+<!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
 
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="//geodata.solutions/includes/countrystatecity.js"></script>
 
-<!-- <link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ URL::asset('vendor/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css" >
 
-<link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" > -->
-<head>
+<link href="{{ URL::asset('css/dboard.css') }}" rel="stylesheet" type="text/css" >
 
-<nav class="limiter-register" style="background-color: #D9B334;">
+<nav class="navbar navbar-expand-md  nav-color" style="background-color: #D9B334;">
         <div class="container">
-            <a class="rcontainer-register100" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-110px; ">
+            <a class="" href="{{ url('/') }}" style="font-size:30px; color: white; margin-left:-110px; ">
                 {{ config('app.name', 'BudgetBetter') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -56,7 +48,7 @@
     <title>Sign-Up</title>
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
-    <!-- <style>
+    <style>
       body {
         /* background: #f12711; 
         background: -webkit-linear-gradient(to right,#f5af19,#f12711); 
@@ -203,7 +195,7 @@
         border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
         border-image: initial;
       }
-    </style> -->
+    </style>
 
   <body>
     <div class="testbox">
@@ -234,8 +226,6 @@
         <select name="city" class="cities" id="cityId">
             <option value="">Select City</option>
         </select>
-
-
           <!-- <select name="location" id="location" required>
             <option value="">Select Country</option>
             <option value="Afganistan">Afghanistan</option>
