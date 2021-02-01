@@ -510,6 +510,7 @@
             <option value="4">Years</option>
           </select>
         </div> -->
+        <br>
         <div>
           <p>Your program start date</p>
           <input style="width:200px;" type="date" required></input>
