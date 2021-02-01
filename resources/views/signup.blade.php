@@ -85,7 +85,7 @@
       form {
       width: 38%;
       padding: 20px;
-      padding-bottom:30px;
+      padding-bottom:40px;
       border-radius: 6px;
       background: #fff;
       box-shadow: 0 0 10px 0 #774a03; 
@@ -93,7 +93,7 @@
       }
       .banner {
       position: relative;
-      padding-top: 30px;
+      padding-top: 40px;
       height: 30px;
       background-image: url("/uploads/media/default/0001/01/f1cf9a9068f4bfbdbd9758c45db79203579a3561.jpeg");      background-size: cover;
       display: flex;
