@@ -11,5 +11,8 @@ class Budget extends Model
     protected $fillable = 
     ['rent','spending','transportation','food','other','user_id','cityId'];
     
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
 }
 

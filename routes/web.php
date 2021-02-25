@@ -53,3 +53,5 @@ Route::get('/resources/views/page_4/{city}', 'PagesController@p4')->name('page_4
 Auth::routes();
 
 Route::post('/sendhtmlemail', 'MailController@html_email');
+
+Route::post('/addcity', 'UserBudgetController@storeCity')->name('add_city');

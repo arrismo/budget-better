@@ -36,5 +36,9 @@ class UserBudgetController extends Controller
         return view('dashboard', ['budget' => $budget]);
     }
 
+    public function storeCity(Request $request) {
+        dd(Auth::user()->budget);
 
+        return view('page_3');
+    }
 }
