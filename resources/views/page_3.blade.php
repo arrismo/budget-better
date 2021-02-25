@@ -32,22 +32,10 @@
 
     <div class='fullscreenDiv'>
        <div class="center"> <h3 style="font-family: 'Nunito', sans-serif; font-size: 70px; margin-bottom:160px;"> Now you will prepare your budget!</h3></div>
-
-
-    
-
     </div>
-
-
     <div class="wrapper">
-    	
-    	
-
     	 <a class="btn btn-lg" style="display: inline-block; color: #212529; background-color: #FFFFFF;
 border-color: #FFFFFF;" href="{{ route('signup') }}" role="button" >Go Back</a>
-
-
-
     	<a class="btn btn-lg"  style="display: inline-block; color: #212529; background-color: #FFFFFF;
 border-color: #FFFFFF;" href="/resources/views/page_4/{{$city}}" role="button" >Continue</a>
 
