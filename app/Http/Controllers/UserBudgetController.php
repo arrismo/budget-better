@@ -38,8 +38,9 @@ class UserBudgetController extends Controller
 
     public function storeCity(Request $request) {
         $user = Auth::user();
-        $user->city = $request->input('cityId');
+        $city = $request->input('cityId');
+        $user->city = $user;
         $user->save();
-        return view('page_3');
+        return view('page_3', ['city' => $city]);
     }
 }
