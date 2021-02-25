@@ -48,17 +48,18 @@
     </div>
       <p class="text-center" style="color: white; font-size: 30px"> Enter your budget under the "Your Budget" section.  </p>
       <p class="text-center" style="color: white; font-size: 30px"> Based on the Our Suggestions column you can make adjustments to your budget.  </p>
-        <div class="card shadow-lg p-3 mb-5 bg-white " style="border-radius: .60rem;" >
+    <div class="row">
+      <div class="card shadow-lg  col-sm-6  " style="border-radius: .60rem; background-color: lightgrey;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange;">Our Suggestion</div>
-          <div class="card-body">
+          <div class="card-body" style="background-color: lightgrey;">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item text-left">Food
                   <input  placeholder={{$foodSum}}  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>
                 </li>
-                <li class="list-group-item text-left" >Rent
+                <li class="list-group-item text-left" style="background-color: lightgrey;" >Rent
                   <input  placeholder={{$housingSum}} style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 174px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>
                 </li>
-                <li class="list-group-item text-left">Spending Money
+                <li class="list-group-item text-left" style="background-color: lightgrey;">Spending Money
                   <input  placeholder={{$spendSum}} style="
                       background-color:#fff;
                       width:25%; background-clip:padding-box;
@@ -67,11 +68,11 @@
                       margin-left: 40px;"
                       class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>
                 </li>
-                <li class="list-group-item text-left">Transportation
+                <li class="list-group-item text-left" style="background-color: lightgrey;">Transportation
                   <input   placeholder={{$travelSum}} style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem;  margin-left: 65px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>
 
                 </li>
-                <li class="list-group-item text-left">Other
+                <li class="list-group-item text-left" style="background-color: lightgrey;" >Other
                   <input placeholder={{$otherSum}} style="  background-color:#fff; width:25%; background-clip:padding-box; border: 1px solid black; border-radius: .60rem; margin-left: 160px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>
                 </li>
               </ul>
@@ -81,7 +82,7 @@
 
 <form action="{{ route('dashboard') }}" method="post">
         @csrf
-        <div class="card shadow-lg p-3 mb-5 bg-white " style="border-radius: .60rem;" >
+        <div class="card shadow-lg  col-sm-6 bg-white " style="border-radius: .60rem;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange; ">Your Changes</div>
           <div class="card-body ">
             <ul class="list-group list-group-flush">
@@ -111,6 +112,7 @@
           </div>
         </div>
       </div>
+    
       <a class="btn btn-lg" style="float: left; color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;" href="{{ route('page_3') }}" role="button" >Go Back</a>
        <input class="btn btn-lg"  style="float: right;color: #212529;background-color: #FFFFFF;border-color: #FFFFFF;margin-right: 10px;" type="submit" value="Continue" />
 </form>

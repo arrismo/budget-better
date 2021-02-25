@@ -27,7 +27,8 @@ class UserBudgetController extends Controller
         return view('dashboard',['budget'=> $budget]);
 
     }
-
+// create a link to sign up page and wit will update
+// sign up url 
 
     public function store(Request $request){
         $userId = Auth::user()->id;
