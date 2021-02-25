@@ -42,6 +42,8 @@ Route::get('/dashboard1', 'UserBudgetController@index')->name('dashboard1');
 
 Route::get('/dashboard', 'UserBudgetController@store');
 
+
+
 Route::get('/resources/views/signup', 'PagesController@sp')->name('signup');
 
 Route::post('/resources/views/page_3', 'PagesController@p3')->name('page_3');
