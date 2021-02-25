@@ -49,11 +49,11 @@
       <p class="text-center" style="color: white; font-size: 30px"> Enter your budget under the "Your Budget" section.  </p>
       <p class="text-center" style="color: white; font-size: 30px"> Based on the Our Suggestions column you can make adjustments to your budget.  </p>
     <div class="row">
-      <div class="card shadow-lg  col-sm-6  " style="border-radius: .60rem; background-color: lightgrey;" >
+      <div class="card shadow-lg    " style="border-radius: .60rem; background-color: lightgrey;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange;">Our Suggestion</div>
           <div class="card-body" style="background-color: lightgrey;">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item text-left">Food
+                <li class="list-group-item text-left" style="background-color: lightgrey;">Food
                   <input  placeholder={{$foodSum}}  style=" background-color:#fff; width:25%;  border: 1px solid black; border-radius: .60rem; margin-left: 170px;"    class="inline" aria-label="Small" aria-describedby="inputGroup-sizing-sm" disabled>
                 </li>
                 <li class="list-group-item text-left" style="background-color: lightgrey;" >Rent
@@ -82,7 +82,7 @@
 
 <form action="{{ route('dashboard') }}" method="post">
         @csrf
-        <div class="card shadow-lg  col-sm-6 bg-white " style="border-radius: .60rem;" >
+        <div class="card shadow-lg   bg-white " style="border-radius: .60rem;" >
             <div class="card-header bg-transparent " style="font-family: 'Nunito', sans-serif; font-size: 30px; border-color: orange; ">Your Changes</div>
           <div class="card-body ">
             <ul class="list-group list-group-flush">
